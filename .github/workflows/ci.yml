@@ -38,16 +38,20 @@ jobs:
         run: |
           node -e '
             const r = require("./lychee.json");
-            const errs = r.errors || 0;
+            const errs = r.errors || 0;        // authoritative real-error count (excludes timeouts)
             const timeouts = r.timeouts || 0;
+            // lychee lists timeouts in error_map too; exclude them when reporting real breakage.
+            const timeoutUrls = new Set(
+              Object.values(r.timeout_map || {}).flat().map((i) => i.url)
+            );
             if (timeouts) {
               console.log(`::warning::lychee: tolerating ${timeouts} transient timeout(s)`);
-              for (const [f, list] of Object.entries(r.timeout_map || {}))
-                for (const i of list) console.log(`  timeout: ${i.url || JSON.stringify(i)} (${f})`);
+              for (const u of timeoutUrls) console.log(`  timeout: ${u}`);
             }
-            const realErrors = Object.entries(r.error_map || {})
-              .flatMap(([f, list]) => list.map((i) => `${i.url || JSON.stringify(i)} (${f})`));
-            if (errs > 0 || realErrors.length) {
+            if (errs > 0) {
+              const realErrors = Object.entries(r.error_map || {}).flatMap(([f, list]) =>
+                list.filter((i) => !timeoutUrls.has(i.url)).map((i) => `${i.url || JSON.stringify(i)} (${f})`)
+              );
               console.log(`::error::lychee: ${errs} broken link(s)`);
               for (const e of realErrors) console.log(`  error: ${e}`);
               process.exit(1);
