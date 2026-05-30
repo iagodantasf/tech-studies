@@ -6,8 +6,11 @@ max_cache_age = "2d"
 max_retries = 2
 retry_wait_time = 2
 
-# Treat rate-limiting as OK and follow redirects.
-accept = ["200..=299", "429"]
+# Treat rate-limiting (429) and bot-blocking (403) as OK, and follow redirects.
+# Many docs/learning hosts (tableau, cloudflare, webpagetest, palantir, linuxjourney…)
+# return 403 to non-browser clients even though the page is valid; failing CI on those
+# is noise. Real breakage still surfaces as 404 / DNS / connection errors.
+accept = ["200..=299", "403", "429"]
 
 # Don't descend into generated / vendored trees, or templates (their links are
 # placeholders like ./resources.md that only resolve once a track is scaffolded).
