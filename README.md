@@ -10,9 +10,6 @@ My long-lived workspace for studying tech — notes, playgrounds, and tracked pr
 # start tracking a new roadmap (creates roadmaps/<slug>/ from template)
 ./scripts/new-roadmap.sh computer-science
 
-# jot a quick "today I learned"
-./scripts/new-til.sh "How TLS handshake works"
-
 # regenerate the progress dashboard
 node scripts/build-dashboard.mjs
 ```
@@ -29,7 +26,6 @@ Then open **[DASHBOARD.md](./DASHBOARD.md)** to see status across all roadmaps.
 | `playgrounds/<lang>/` | Runnable code experiments, organized by language/tool |
 | `projects/` | Larger practice builds |
 | `library/` | Notes on books, courses, papers |
-| `til/` | Today-I-Learned micro-notes (dated) |
 | `templates/` | Note + scaffold templates |
 | `scripts/` | Automation (scaffold tracks, build dashboard) |
 

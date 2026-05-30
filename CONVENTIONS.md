@@ -10,9 +10,8 @@ The durable rules that keep this repo usable as it grows to dozens of topics.
    - Write `roadmaps/<slug>/notes/<node>.md` from [`templates/topic-note.md`](./templates/topic-note.md).
    - Build a small thing in `playgrounds/<lang>/` and link it from the note.
    - Tick the node's checkbox in `roadmaps/<slug>/README.md` and set your `confidence`.
-3. Notable one-off insight → `./scripts/new-til.sh "..."`.
-4. **Weekly:** run `node scripts/build-dashboard.mjs`, review the dashboard, pick what's next.
-5. **Spaced repetition:** export shaky notes (`confidence ≤ 2`) with `node scripts/export-anki.mjs`, then import `anki-export.tsv` into Anki (File → Import).
+3. **Weekly:** run `node scripts/build-dashboard.mjs`, review the dashboard, pick what's next.
+4. **Spaced repetition:** export shaky notes (`confidence ≤ 2`) with `node scripts/export-anki.mjs`, then import `anki-export.tsv` into Anki (File → Import).
 
 ## 2. Note frontmatter
 
