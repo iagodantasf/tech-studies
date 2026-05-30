@@ -1,6 +1,39 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
+// Roadmaps are filed under roadmaps/<category>/. Show the category folders in intent
+// order (not alphabetical) and with nice labels in the explorer sidebar.
+const CATEGORY_LABELS: Record<string, string> = {
+  "role-based": "Role-based",
+  "skill-based": "Skill-based",
+  "best-practices": "Best Practices",
+  beginner: "Beginner",
+}
+const CATEGORY_ORDER = Object.keys(CATEGORY_LABELS)
+
+const explorerOptions = {
+  folderDefaultState: "collapsed" as const,
+  mapFn: (node: any) => {
+    const label = CATEGORY_LABELS[node.slugSegment]
+    if (node.isFolder && label) node.displayName = label
+    return node
+  },
+  sortFn: (a: any, b: any) => {
+    const ai = CATEGORY_ORDER.indexOf(a.slugSegment)
+    const bi = CATEGORY_ORDER.indexOf(b.slugSegment)
+    if (ai !== -1 || bi !== -1) {
+      return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi)
+    }
+    if (a.isFolder === b.isFolder) {
+      return a.displayName.localeCompare(b.displayName, undefined, {
+        numeric: true,
+        sensitivity: "base",
+      })
+    }
+    return a.isFolder ? -1 : 1
+  },
+}
+
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
@@ -38,7 +71,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer(explorerOptions),
   ],
   right: [
     Component.Graph(),
@@ -62,7 +95,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer(explorerOptions),
   ],
   right: [],
 }
