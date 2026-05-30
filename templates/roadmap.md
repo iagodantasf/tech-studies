@@ -1,9 +1,7 @@
 ---
 title: {{TITLE}}
-roadmap: {{SLUG}}
-status: learning        # not-started | learning | done
-started: {{DATE}}
-updated: {{DATE}}
+track: {{SLUG}}
+category: {{CATEGORY}}
 tags: [roadmap]
 ---
 
@@ -11,16 +9,14 @@ tags: [roadmap]
 
 > roadmap.sh: {{URL}}
 
-Track for the **{{TITLE}}** roadmap. Tick nodes as you cover them — `build-dashboard.mjs`
-counts these checkboxes for the progress %.
+Suggested path through the **{{TITLE}}** nodes. Each node links to its lesson when written.
 
 ## Nodes
-<!-- Mirror the roadmap.sh nodes here. Each `- [ ]` / `- [x]` is counted. -->
-- [ ] (replace with the first roadmap.sh node)
+<!-- Mirror the roadmap.sh nodes here, grouped by "### Group". A node with a
+     lesson is a [[wikilink]]; a node without one is a plain bullet. No checkboxes. -->
 
-## Notes
-<!-- Index your notes/ files here, newest first. -->
-- _none yet — add with: a new file in `notes/`_
+### (group)
+- (replace with the first roadmap.sh node)
 
 ## Resources
 See [resources.md](./resources.md).

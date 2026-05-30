@@ -1,58 +1,63 @@
 # Conventions
 
-The durable rules that keep this repo usable as it grows to dozens of topics.
+The durable rules that keep this repo usable as a structured wiki across dozens of topics.
 
-## 1. The learning loop
+## 1. The model
 
-1. **WIP limit: ≤3 active roadmaps.** More than that and nothing finishes. Active = `status: learning` in its track README.
-2. For each node in a roadmap:
-   - Skim the node on roadmap.sh.
-   - Write `roadmaps/<slug>/notes/<node>.md` from [`templates/topic-note.md`](./templates/topic-note.md).
-   - Build a small thing in `playgrounds/<lang>/` and link it from the note.
-   - Tick the node's checkbox in `roadmaps/<slug>/README.md` and set your `confidence`.
-3. **Weekly:** run `node scripts/build-dashboard.mjs`, review the dashboard, pick what's next.
-4. **Spaced repetition:** export shaky notes (`confidence ≤ 2`) with `node scripts/export-anki.mjs`, then import `anki-export.tsv` into Anki (File → Import).
+- A **roadmap** is a *suggested path* — an ordered, grouped list of nodes for a topic, mirrored
+  from [roadmap.sh](https://roadmap.sh). It points the way; it is not a personal progress tracker.
+- A **node** is one concept on that path (e.g. *Hash tables*).
+- A **lesson** is the wiki page that teaches a node. Lessons are the real content.
+- Roadmaps are filed by **type** so the explorer groups them:
+  `Role-based`, `Skill-based`, `Best Practices`, `Beginner`.
 
-## 2. Note frontmatter
+```
+roadmaps/<catDir>/<slug>/
+├── README.md      # the roadmap: grouped nodes, each a [[link]] to its lesson (or plain text)
+├── resources.md   # books, docs, courses for this topic
+└── lessons/
+    └── <group>/
+        ├── index.md          # MOC: lists this group's lessons in order
+        └── <node>.md         # one lesson per node
+```
 
-Every topic note starts with YAML frontmatter (Obsidian + tooling read it):
+`<catDir>` is `role-based` · `skill-based` · `best-practices` · `beginner`.
+
+## 2. Writing a lesson
+
+1. Pick a node from a roadmap README.
+2. `./scripts/new-lesson.sh <track-slug> "<Group>" "<Node title>"` — scaffolds
+   `lessons/<group>/<node>.md` from [`templates/lesson.md`](./templates/lesson.md) and refreshes the
+   group's `index.md` MOC.
+3. Write it as teaching content: summary → why it matters → how it works → example → pitfalls →
+   see also. Link a `playgrounds/<lang>/` experiment when one exists.
+4. In the track README, turn that node from plain text into `- [[<node>]]`.
+
+## 3. Lesson frontmatter
 
 ```yaml
 ---
 title: Hash Tables
-roadmap: computer-science      # slug — must match a roadmaps/<slug> folder
-node: "Data Structures"        # the roadmap.sh node this note covers
-status: todo | learning | done
-confidence: 0                  # 0–5, your honest self-rating
+track: computer-science        # slug — must match a roadmaps/<catDir>/<slug> folder
+group: Data structures         # the node group it belongs to
 tags: [cs, data-structures]
-created: 2026-05-30
-updated: 2026-05-30
-sources: []                    # URLs / book refs
+prerequisites: [[arrays-and-dynamic-arrays]]   # graph edges
+see-also: [[linked-lists]]
 ---
 ```
 
-- `status` and `confidence` drive review priority.
-- `roadmap` ties the note back to its track (and the dashboard).
+No `status`, `confidence`, or dates — this is a wiki, not a tracker. `prerequisites` and `see-also`
+feed the Obsidian/Quartz graph.
 
-## 3. Naming & structure
+## 4. Naming & linking
 
-- **Slugs** = roadmap.sh slugs (e.g. `datastructures-and-algorithms`, `golang`). See `scripts/catalog.json` for the canonical list.
-- **Note filenames**: kebab-case, descriptive — `hash-tables.md`, not `note1.md`.
-- One concept per note. Split when a note gets long.
-- A roadmap track folder:
-  ```
-  roadmaps/<slug>/
-  ├── README.md      # checklist of roadmap.sh nodes + progress + resources
-  ├── notes/         # one .md per concept
-  └── resources.md   # links, books, courses for this roadmap
-  ```
-
-## 4. Linking & tags
-
-- Link between notes with `[[wikilinks]]` — e.g. `see [[big-o-notation]]`.
-- Link a note to code: `[[playgrounds/rust/binary-search]]`.
-- Tags are topical, lowercase, kebab: `#data-structures`, `#distributed-systems`.
-- Prefer a few meaningful tags over many.
+- **Slugs** = roadmap.sh slugs (e.g. `datastructures-and-algorithms`, `golang`). See
+  `scripts/catalog.json` for the canonical list.
+- **Lesson filenames**: kebab-case of the node title — `hash-tables.md`, not `note1.md`.
+- One node per lesson. Split when a lesson gets long.
+- Link between lessons with `[[wikilinks]]`; link to code as `playgrounds/rust/binary-search`.
+- Tags are topical, lowercase, kebab: `#data-structures`, `#distributed-systems`. A few meaningful
+  tags beat many.
 
 ## 5. Playgrounds
 
@@ -65,8 +70,12 @@ Organized by **language/tool**, not by roadmap, so each toolchain has one clean 
 | Python | one `uv`/venv env, scripts + notebooks |
 | TS/JS | one pnpm workspace |
 
-See [`playgrounds/README.md`](./playgrounds/README.md). Cross-link experiments from the notes that motivated them.
+See [`playgrounds/README.md`](./playgrounds/README.md). Cross-link experiments from the lessons that
+motivate them.
 
-## 6. Dashboard
+## 6. Catalog
 
-`DASHBOARD.md` is **generated** — don't hand-edit it. It reads `scripts/catalog.json` (every roadmap) and counts ticked checkboxes in each `roadmaps/<slug>/README.md`. Roadmaps without a folder show `not-started`.
+`CATALOG.md` (and the site home `index.md`) are **generated** — don't hand-edit them. Run
+`node scripts/build-dashboard.mjs`. It reads `scripts/catalog.json` and, per roadmap, reports
+**coverage** = lessons written / nodes in the path. New roadmaps are scaffolded with
+`./scripts/new-roadmap.sh <slug>`.

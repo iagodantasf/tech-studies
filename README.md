@@ -1,34 +1,44 @@
 # tech-studies
 
-My long-lived workspace for studying tech — notes, playgrounds, and tracked progress against every [roadmap.sh](https://roadmap.sh/roadmaps) roadmap.
+A structured **wiki** for studying tech, organized around every [roadmap.sh](https://roadmap.sh/roadmaps)
+roadmap. Each roadmap is a *suggested path* of nodes; each node can have a **lesson** that teaches it.
 
-> **This is an [Obsidian](https://obsidian.md)-compatible vault.** Notes are plain markdown with frontmatter, `[[wikilinks]]`, and `#tags`. Open the folder as a vault for backlinks + graph, or just read it on GitHub.
+> **This is an [Obsidian](https://obsidian.md)-compatible vault.** Pages are plain markdown with
+> frontmatter, `[[wikilinks]]`, and `#tags`. Open the folder as a vault for backlinks + graph, or
+> browse the published site / GitHub.
 
 ## Quickstart
 
 ```bash
-# start tracking a new roadmap (creates roadmaps/<slug>/ from template)
+# scaffold a new roadmap (creates roadmaps/<catDir>/<slug>/ from the template)
 ./scripts/new-roadmap.sh computer-science
 
-# regenerate the progress dashboard
+# write a lesson for one of its nodes
+./scripts/new-lesson.sh computer-science "Data structures" "Hash tables"
+
+# regenerate the catalog (coverage per roadmap)
 node scripts/build-dashboard.mjs
 ```
 
-Then open **[DASHBOARD.md](./DASHBOARD.md)** to see status across all roadmaps.
+Then open **[CATALOG.md](./CATALOG.md)** for coverage across all roadmaps.
 
 ## Layout
 
 | Path | What |
 |---|---|
-| [`DASHBOARD.md`](./DASHBOARD.md) | Progress across every roadmap (generated) |
-| [`CONVENTIONS.md`](./CONVENTIONS.md) | How notes are structured + the learning loop |
-| `roadmaps/<slug>/` | One learning track per roadmap.sh roadmap: checklist + notes |
+| [`CATALOG.md`](./CATALOG.md) | Coverage (lessons written / nodes) across every roadmap (generated) |
+| [`CONVENTIONS.md`](./CONVENTIONS.md) | The wiki model + how lessons are structured |
+| `roadmaps/<catDir>/<slug>/` | One roadmap per topic: a grouped node path + `lessons/` + resources |
 | `playgrounds/<lang>/` | Runnable code experiments, organized by language/tool |
 | `projects/` | Larger practice builds |
 | `library/` | Notes on books, courses, papers |
-| `templates/` | Note + scaffold templates |
-| `scripts/` | Automation (scaffold tracks, build dashboard) |
+| `templates/` | Lesson + roadmap scaffolds |
+| `scripts/` | Automation (scaffold roadmaps/lessons, build the catalog) |
 
-## How I use it
+Roadmaps are filed by type — `role-based`, `skill-based`, `best-practices`, `beginner` — so the
+explorer groups them.
 
-Read **[CONVENTIONS.md](./CONVENTIONS.md)** — it defines the frontmatter, tags, and the per-topic learning loop. Rule of thumb: **≤3 active roadmaps at a time.**
+## How it's structured
+
+Read **[CONVENTIONS.md](./CONVENTIONS.md)** — it defines the roadmap → node → lesson model, the
+frontmatter, tags, and the `lessons/<group>/index.md` maps of content.
