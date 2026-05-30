@@ -57,7 +57,7 @@ for (const f of files) moc += `- [[${f.replace(/\.md$/, "")}]]\n`;
 fs.writeFileSync(path.join(groupDir, "index.md"), moc);
 
 console.log(`✓ created ${path.relative(ROOT, lessonFile)}`);
-console.log(`  → add it to the track README node as [[${kebab(NODE)}]]`);
+console.log(`  → add it to the track index.md node as [[${kebab(NODE)}]]`);
 NODE_EOF
 
 node "$ROOT/scripts/build-dashboard.mjs"

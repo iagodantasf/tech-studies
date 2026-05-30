@@ -53,7 +53,7 @@ sed -e "s|{{TITLE}}|$TITLE_ESC|g" \
     -e "s|{{TRACK}}|$SLUG|g" \
     -e "s|{{CATEGORY}}|$CATEGORY|g" \
     -e "s|{{URL}}|$URL|g" \
-    "$ROOT/templates/roadmap.md" > "$DIR/README.md"
+    "$ROOT/templates/roadmap.md" > "$DIR/index.md"
 
 printf '# %s — resources\n\n> roadmap.sh: %s\n\n## Docs / references\n- \n' "$TITLE" "$URL" > "$DIR/resources.md"
 

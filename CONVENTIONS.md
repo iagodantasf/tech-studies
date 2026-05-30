@@ -13,7 +13,7 @@ The durable rules that keep this repo usable as a structured wiki across dozens 
 
 ```
 roadmaps/<catDir>/<slug>/
-├── README.md      # the roadmap: grouped nodes, each a [[link]] to its lesson (or plain text)
+├── index.md       # the roadmap: grouped nodes, each a [[link]] to its lesson (or plain text)
 ├── resources.md   # books, docs, courses for this topic
 └── lessons/
     └── <group>/
@@ -25,13 +25,13 @@ roadmaps/<catDir>/<slug>/
 
 ## 2. Writing a lesson
 
-1. Pick a node from a roadmap README.
+1. Pick a node from a roadmap (its `index.md`).
 2. `./scripts/new-lesson.sh <track-slug> "<Group>" "<Node title>"` — scaffolds
    `lessons/<group>/<node>.md` from [`templates/lesson.md`](./templates/lesson.md) and refreshes the
    group's `index.md` MOC.
 3. Write it as teaching content: summary → why it matters → how it works → example → pitfalls →
    see also. Link a `playgrounds/<lang>/` experiment when one exists.
-4. In the track README, turn that node from plain text into `- [[<node>]]`.
+4. In the track `index.md`, turn that node from plain text into `- [[<node>]]`.
 
 ## 3. Lesson frontmatter
 

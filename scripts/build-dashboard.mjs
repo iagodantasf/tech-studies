@@ -54,7 +54,7 @@ function bar(pct) {
 
 function inspect(r) {
   const dir = join(ROOT, "roadmaps", CAT_DIR[r.category], r.slug);
-  const readme = join(dir, "README.md");
+  const readme = join(dir, "index.md");
   if (!existsSync(readme)) {
     return { path: null, nodes: 0, lessons: 0, pct: 0, touched: "—" };
   }
