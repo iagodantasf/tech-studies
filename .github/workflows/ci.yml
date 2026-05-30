@@ -30,8 +30,10 @@ jobs:
           # Don't let the action fail the job; we decide below. Checking 900+
           # links against 500+ external hosts means a few will intermittently
           # time out from CI runners — that's transient, not broken.
-          args: "--config lychee.toml --format json --output ./lychee.json './**/*.md'"
+          args: "--config lychee.toml './**/*.md'"
           fail: false
+          format: json
+          output: ./lychee.json
       - name: Fail only on real broken links (timeouts are transient)
         run: |
           node -e '
