@@ -4,114 +4,114 @@
 
 **90** roadmaps · **33** lessons written across **1** track(s) · 7327 nodes mapped.
 
-A *roadmap* is a suggested path; each node can link to a *lesson*. Coverage = lessons written / nodes. ⭐ = suggested starting point. See [CONVENTIONS.md](./CONVENTIONS.md) for how the wiki is structured.
+A *roadmap* is a suggested path; each node can link to a *lesson*. Coverage = lessons written / nodes. See [CONVENTIONS.md](./CONVENTIONS.md) for how the wiki is structured.
 
 ## Role-based
 
-| | Roadmap | Coverage | Updated |
-|---|---|---|---|
-| ⭐ | [AI and Data Scientist](roadmaps/role-based/ai-data-scientist/) · [↗](https://roadmap.sh/ai-data-scientist) | `░░░░░░░░░░` 0/91 | 2026-05-30 |
-| ⭐ | [AI Engineer](roadmaps/role-based/ai-engineer/) · [↗](https://roadmap.sh/ai-engineer) | `░░░░░░░░░░` 0/60 | 2026-05-30 |
-| ⭐ | [Backend](roadmaps/role-based/backend/) · [↗](https://roadmap.sh/backend) | `░░░░░░░░░░` 0/117 | 2026-05-30 |
-|  | [AI Product Builder](roadmaps/role-based/ai-product-builder/) · [↗](https://roadmap.sh/ai-product-builder) | `░░░░░░░░░░` 0/62 | 2026-05-30 |
-|  | [AI Red Teaming](roadmaps/role-based/ai-red-teaming/) · [↗](https://roadmap.sh/ai-red-teaming) | `░░░░░░░░░░` 0/65 | 2026-05-30 |
-|  | [Android](roadmaps/role-based/android/) · [↗](https://roadmap.sh/android) | `░░░░░░░░░░` 0/95 | 2026-05-30 |
-|  | [API Design](roadmaps/role-based/api-design/) · [↗](https://roadmap.sh/api-design) | `░░░░░░░░░░` 0/80 | 2026-05-30 |
-|  | [BI Analyst](roadmaps/role-based/bi-analyst/) · [↗](https://roadmap.sh/bi-analyst) | `░░░░░░░░░░` 0/76 | 2026-05-30 |
-|  | [Blockchain](roadmaps/role-based/blockchain/) · [↗](https://roadmap.sh/blockchain) | `░░░░░░░░░░` 0/86 | 2026-05-30 |
-|  | [Cyber Security](roadmaps/role-based/cyber-security/) · [↗](https://roadmap.sh/cyber-security) | `░░░░░░░░░░` 0/99 | 2026-05-30 |
-|  | [Data Analyst](roadmaps/role-based/data-analyst/) · [↗](https://roadmap.sh/data-analyst) | `░░░░░░░░░░` 0/86 | 2026-05-30 |
-|  | [Data Engineer](roadmaps/role-based/data-engineer/) · [↗](https://roadmap.sh/data-engineer) | `░░░░░░░░░░` 0/171 | 2026-05-30 |
-|  | [Developer Relations](roadmaps/role-based/devrel/) · [↗](https://roadmap.sh/devrel) | `░░░░░░░░░░` 0/65 | 2026-05-30 |
-|  | [DevOps](roadmaps/role-based/devops/) · [↗](https://roadmap.sh/devops) | `░░░░░░░░░░` 0/135 | 2026-05-30 |
-|  | [DevSecOps](roadmaps/role-based/devsecops/) · [↗](https://roadmap.sh/devsecops) | `░░░░░░░░░░` 0/92 | 2026-05-30 |
-|  | [Engineering Manager](roadmaps/role-based/engineering-manager/) · [↗](https://roadmap.sh/engineering-manager) | `░░░░░░░░░░` 0/101 | 2026-05-30 |
-|  | [Forward Deployed Engineer](roadmaps/role-based/forward-deployed-engineer/) · [↗](https://roadmap.sh/forward-deployed-engineer) | `░░░░░░░░░░` 0/57 | 2026-05-30 |
-|  | [Frontend](roadmaps/role-based/frontend/) · [↗](https://roadmap.sh/frontend) | `░░░░░░░░░░` 0/86 | 2026-05-30 |
-|  | [Full Stack](roadmaps/role-based/full-stack/) · [↗](https://roadmap.sh/full-stack) | `░░░░░░░░░░` 0/67 | 2026-05-30 |
-|  | [Game Developer](roadmaps/role-based/game-developer/) · [↗](https://roadmap.sh/game-developer) | `░░░░░░░░░░` 0/77 | 2026-05-30 |
-|  | [iOS](roadmaps/role-based/ios/) · [↗](https://roadmap.sh/ios) | `░░░░░░░░░░` 0/84 | 2026-05-30 |
-|  | [Machine Learning](roadmaps/role-based/machine-learning/) · [↗](https://roadmap.sh/machine-learning) | `░░░░░░░░░░` 0/124 | 2026-05-30 |
-|  | [MLOps](roadmaps/role-based/mlops/) · [↗](https://roadmap.sh/mlops) | `░░░░░░░░░░` 0/59 | 2026-05-30 |
-|  | [Network Engineer](roadmaps/role-based/network-engineer/) · [↗](https://roadmap.sh/network-engineer) | `░░░░░░░░░░` 0/170 | 2026-05-30 |
-|  | [PostgreSQL](roadmaps/role-based/postgresql-dba/) · [↗](https://roadmap.sh/postgresql-dba) | `░░░░░░░░░░` 0/119 | 2026-05-30 |
-|  | [Product Manager](roadmaps/role-based/product-manager/) · [↗](https://roadmap.sh/product-manager) | `░░░░░░░░░░` 0/87 | 2026-05-30 |
-|  | [QA](roadmaps/role-based/qa/) · [↗](https://roadmap.sh/qa) | `░░░░░░░░░░` 0/89 | 2026-05-30 |
-|  | [Server Side Game Developer](roadmaps/role-based/server-side-game-developer/) · [↗](https://roadmap.sh/server-side-game-developer) | `░░░░░░░░░░` 0/75 | 2026-05-30 |
-|  | [Software Architect](roadmaps/role-based/software-architect/) · [↗](https://roadmap.sh/software-architect) | `░░░░░░░░░░` 0/114 | 2026-05-30 |
-|  | [Technical Writer](roadmaps/role-based/technical-writer/) · [↗](https://roadmap.sh/technical-writer) | `░░░░░░░░░░` 0/77 | 2026-05-30 |
-|  | [UX Design](roadmaps/role-based/ux-design/) · [↗](https://roadmap.sh/ux-design) | `░░░░░░░░░░` 0/88 | 2026-05-30 |
+| Roadmap | Coverage | Updated |
+|---|---|---|
+| [AI and Data Scientist](roadmaps/role-based/ai-data-scientist/) · [↗](https://roadmap.sh/ai-data-scientist) | `░░░░░░░░░░` 0/91 | 2026-05-30 |
+| [AI Engineer](roadmaps/role-based/ai-engineer/) · [↗](https://roadmap.sh/ai-engineer) | `░░░░░░░░░░` 0/60 | 2026-05-30 |
+| [Backend](roadmaps/role-based/backend/) · [↗](https://roadmap.sh/backend) | `░░░░░░░░░░` 0/117 | 2026-05-30 |
+| [AI Product Builder](roadmaps/role-based/ai-product-builder/) · [↗](https://roadmap.sh/ai-product-builder) | `░░░░░░░░░░` 0/62 | 2026-05-30 |
+| [AI Red Teaming](roadmaps/role-based/ai-red-teaming/) · [↗](https://roadmap.sh/ai-red-teaming) | `░░░░░░░░░░` 0/65 | 2026-05-30 |
+| [Android](roadmaps/role-based/android/) · [↗](https://roadmap.sh/android) | `░░░░░░░░░░` 0/95 | 2026-05-30 |
+| [API Design](roadmaps/role-based/api-design/) · [↗](https://roadmap.sh/api-design) | `░░░░░░░░░░` 0/80 | 2026-05-30 |
+| [BI Analyst](roadmaps/role-based/bi-analyst/) · [↗](https://roadmap.sh/bi-analyst) | `░░░░░░░░░░` 0/76 | 2026-05-30 |
+| [Blockchain](roadmaps/role-based/blockchain/) · [↗](https://roadmap.sh/blockchain) | `░░░░░░░░░░` 0/86 | 2026-05-30 |
+| [Cyber Security](roadmaps/role-based/cyber-security/) · [↗](https://roadmap.sh/cyber-security) | `░░░░░░░░░░` 0/99 | 2026-05-30 |
+| [Data Analyst](roadmaps/role-based/data-analyst/) · [↗](https://roadmap.sh/data-analyst) | `░░░░░░░░░░` 0/86 | 2026-05-30 |
+| [Data Engineer](roadmaps/role-based/data-engineer/) · [↗](https://roadmap.sh/data-engineer) | `░░░░░░░░░░` 0/171 | 2026-05-30 |
+| [Developer Relations](roadmaps/role-based/devrel/) · [↗](https://roadmap.sh/devrel) | `░░░░░░░░░░` 0/65 | 2026-05-30 |
+| [DevOps](roadmaps/role-based/devops/) · [↗](https://roadmap.sh/devops) | `░░░░░░░░░░` 0/135 | 2026-05-30 |
+| [DevSecOps](roadmaps/role-based/devsecops/) · [↗](https://roadmap.sh/devsecops) | `░░░░░░░░░░` 0/92 | 2026-05-30 |
+| [Engineering Manager](roadmaps/role-based/engineering-manager/) · [↗](https://roadmap.sh/engineering-manager) | `░░░░░░░░░░` 0/101 | 2026-05-30 |
+| [Forward Deployed Engineer](roadmaps/role-based/forward-deployed-engineer/) · [↗](https://roadmap.sh/forward-deployed-engineer) | `░░░░░░░░░░` 0/57 | 2026-05-30 |
+| [Frontend](roadmaps/role-based/frontend/) · [↗](https://roadmap.sh/frontend) | `░░░░░░░░░░` 0/86 | 2026-05-30 |
+| [Full Stack](roadmaps/role-based/full-stack/) · [↗](https://roadmap.sh/full-stack) | `░░░░░░░░░░` 0/67 | 2026-05-30 |
+| [Game Developer](roadmaps/role-based/game-developer/) · [↗](https://roadmap.sh/game-developer) | `░░░░░░░░░░` 0/77 | 2026-05-30 |
+| [iOS](roadmaps/role-based/ios/) · [↗](https://roadmap.sh/ios) | `░░░░░░░░░░` 0/84 | 2026-05-30 |
+| [Machine Learning](roadmaps/role-based/machine-learning/) · [↗](https://roadmap.sh/machine-learning) | `░░░░░░░░░░` 0/124 | 2026-05-30 |
+| [MLOps](roadmaps/role-based/mlops/) · [↗](https://roadmap.sh/mlops) | `░░░░░░░░░░` 0/59 | 2026-05-30 |
+| [Network Engineer](roadmaps/role-based/network-engineer/) · [↗](https://roadmap.sh/network-engineer) | `░░░░░░░░░░` 0/170 | 2026-05-30 |
+| [PostgreSQL](roadmaps/role-based/postgresql-dba/) · [↗](https://roadmap.sh/postgresql-dba) | `░░░░░░░░░░` 0/119 | 2026-05-30 |
+| [Product Manager](roadmaps/role-based/product-manager/) · [↗](https://roadmap.sh/product-manager) | `░░░░░░░░░░` 0/87 | 2026-05-30 |
+| [QA](roadmaps/role-based/qa/) · [↗](https://roadmap.sh/qa) | `░░░░░░░░░░` 0/89 | 2026-05-30 |
+| [Server Side Game Developer](roadmaps/role-based/server-side-game-developer/) · [↗](https://roadmap.sh/server-side-game-developer) | `░░░░░░░░░░` 0/75 | 2026-05-30 |
+| [Software Architect](roadmaps/role-based/software-architect/) · [↗](https://roadmap.sh/software-architect) | `░░░░░░░░░░` 0/114 | 2026-05-30 |
+| [Technical Writer](roadmaps/role-based/technical-writer/) · [↗](https://roadmap.sh/technical-writer) | `░░░░░░░░░░` 0/77 | 2026-05-30 |
+| [UX Design](roadmaps/role-based/ux-design/) · [↗](https://roadmap.sh/ux-design) | `░░░░░░░░░░` 0/88 | 2026-05-30 |
 
 ## Skill-based
 
-| | Roadmap | Coverage | Updated |
-|---|---|---|---|
-| ⭐ | [Computer Science](roadmaps/skill-based/computer-science/) · [↗](https://roadmap.sh/computer-science) | `▓▓▓▓▓▓▓▓▓▓` 33/33 | 2026-05-30 |
-| ⭐ | [AI Agents](roadmaps/skill-based/ai-agents/) · [↗](https://roadmap.sh/ai-agents) | `░░░░░░░░░░` 0/91 | 2026-05-30 |
-| ⭐ | [Data Structures & Algorithms](roadmaps/skill-based/datastructures-and-algorithms/) · [↗](https://roadmap.sh/datastructures-and-algorithms) | `░░░░░░░░░░` 0/90 | 2026-05-30 |
-| ⭐ | [Docker](roadmaps/skill-based/docker/) · [↗](https://roadmap.sh/docker) | `░░░░░░░░░░` 0/84 | 2026-05-30 |
-| ⭐ | [Go](roadmaps/skill-based/golang/) · [↗](https://roadmap.sh/golang) | `░░░░░░░░░░` 0/93 | 2026-05-30 |
-| ⭐ | [Kubernetes](roadmaps/skill-based/kubernetes/) · [↗](https://roadmap.sh/kubernetes) | `░░░░░░░░░░` 0/93 | 2026-05-30 |
-| ⭐ | [Linux](roadmaps/skill-based/linux/) · [↗](https://roadmap.sh/linux) | `░░░░░░░░░░` 0/80 | 2026-05-30 |
-| ⭐ | [Prompt Engineering](roadmaps/skill-based/prompt-engineering/) · [↗](https://roadmap.sh/prompt-engineering) | `░░░░░░░░░░` 0/66 | 2026-05-30 |
-| ⭐ | [Python](roadmaps/skill-based/python/) · [↗](https://roadmap.sh/python) | `░░░░░░░░░░` 0/75 | 2026-05-30 |
-| ⭐ | [Rust](roadmaps/skill-based/rust/) · [↗](https://roadmap.sh/rust) | `░░░░░░░░░░` 0/92 | 2026-05-30 |
-| ⭐ | [System Design](roadmaps/skill-based/system-design/) · [↗](https://roadmap.sh/system-design) | `░░░░░░░░░░` 0/42 | 2026-05-30 |
-| ⭐ | [Terraform](roadmaps/skill-based/terraform/) · [↗](https://roadmap.sh/terraform) | `░░░░░░░░░░` 0/80 | 2026-05-30 |
-| ⭐ | [TypeScript](roadmaps/skill-based/typescript/) · [↗](https://roadmap.sh/typescript) | `░░░░░░░░░░` 0/76 | 2026-05-30 |
-|  | [Angular](roadmaps/skill-based/angular/) · [↗](https://roadmap.sh/angular) | `░░░░░░░░░░` 0/90 | 2026-05-30 |
-|  | [ASP.NET Core](roadmaps/skill-based/aspnet-core/) · [↗](https://roadmap.sh/aspnet-core) | `░░░░░░░░░░` 0/79 | 2026-05-30 |
-|  | [AWS](roadmaps/skill-based/aws/) · [↗](https://roadmap.sh/aws) | `░░░░░░░░░░` 0/92 | 2026-05-30 |
-|  | [C++](roadmaps/skill-based/cpp/) · [↗](https://roadmap.sh/cpp) | `░░░░░░░░░░` 0/91 | 2026-05-30 |
-|  | [Claude Code](roadmaps/skill-based/claude-code/) · [↗](https://roadmap.sh/claude-code) | `░░░░░░░░░░` 0/65 | 2026-05-30 |
-|  | [Cloudflare](roadmaps/skill-based/cloudflare/) · [↗](https://roadmap.sh/cloudflare) | `░░░░░░░░░░` 0/70 | 2026-05-30 |
-|  | [CSS](roadmaps/skill-based/css/) · [↗](https://roadmap.sh/css) | `░░░░░░░░░░` 0/81 | 2026-05-30 |
-|  | [Design System](roadmaps/skill-based/design-system/) · [↗](https://roadmap.sh/design-system) | `░░░░░░░░░░` 0/65 | 2026-05-30 |
-|  | [Django](roadmaps/skill-based/django/) · [↗](https://roadmap.sh/django) | `░░░░░░░░░░` 0/73 | 2026-05-30 |
-|  | [Elasticsearch](roadmaps/skill-based/elasticsearch/) · [↗](https://roadmap.sh/elasticsearch) | `░░░░░░░░░░` 0/86 | 2026-05-30 |
-|  | [Flutter](roadmaps/skill-based/flutter/) · [↗](https://roadmap.sh/flutter) | `░░░░░░░░░░` 0/88 | 2026-05-30 |
-|  | [Git and GitHub](roadmaps/skill-based/git-github/) · [↗](https://roadmap.sh/git-github) | `░░░░░░░░░░` 0/71 | 2026-05-30 |
-|  | [GraphQL](roadmaps/skill-based/graphql/) · [↗](https://roadmap.sh/graphql) | `░░░░░░░░░░` 0/89 | 2026-05-30 |
-|  | [HTML](roadmaps/skill-based/html/) · [↗](https://roadmap.sh/html) | `░░░░░░░░░░` 0/76 | 2026-05-30 |
-|  | [Java](roadmaps/skill-based/java/) · [↗](https://roadmap.sh/java) | `░░░░░░░░░░` 0/82 | 2026-05-30 |
-|  | [JavaScript](roadmaps/skill-based/javascript/) · [↗](https://roadmap.sh/javascript) | `░░░░░░░░░░` 0/88 | 2026-05-30 |
-|  | [Kotlin](roadmaps/skill-based/kotlin/) · [↗](https://roadmap.sh/kotlin) | `░░░░░░░░░░` 0/77 | 2026-05-30 |
-|  | [Laravel](roadmaps/skill-based/laravel/) · [↗](https://roadmap.sh/laravel) | `░░░░░░░░░░` 0/103 | 2026-05-30 |
-|  | [LeetCode](roadmaps/skill-based/leetcode/) · [↗](https://roadmap.sh/leetcode) | `░░░░░░░░░░` 0/66 | 2026-05-30 |
-|  | [MongoDB](roadmaps/skill-based/mongodb/) · [↗](https://roadmap.sh/mongodb) | `░░░░░░░░░░` 0/117 | 2026-05-30 |
-|  | [Next.js](roadmaps/skill-based/nextjs/) · [↗](https://roadmap.sh/nextjs) | `░░░░░░░░░░` 0/76 | 2026-05-30 |
-|  | [Node.js](roadmaps/skill-based/nodejs/) · [↗](https://roadmap.sh/nodejs) | `░░░░░░░░░░` 0/90 | 2026-05-30 |
-|  | [OpenClaw](roadmaps/skill-based/openclaw/) · [↗](https://roadmap.sh/openclaw) | `░░░░░░░░░░` 0/53 | 2026-05-30 |
-|  | [PHP](roadmaps/skill-based/php/) · [↗](https://roadmap.sh/php) | `░░░░░░░░░░` 0/93 | 2026-05-30 |
-|  | [React](roadmaps/skill-based/react/) · [↗](https://roadmap.sh/react) | `░░░░░░░░░░` 0/79 | 2026-05-30 |
-|  | [React Native](roadmaps/skill-based/react-native/) · [↗](https://roadmap.sh/react-native) | `░░░░░░░░░░` 0/81 | 2026-05-30 |
-|  | [Redis](roadmaps/skill-based/redis/) · [↗](https://roadmap.sh/redis) | `░░░░░░░░░░` 0/76 | 2026-05-30 |
-|  | [Ruby](roadmaps/skill-based/ruby/) · [↗](https://roadmap.sh/ruby) | `░░░░░░░░░░` 0/87 | 2026-05-30 |
-|  | [Ruby on Rails](roadmaps/skill-based/ruby-on-rails/) · [↗](https://roadmap.sh/ruby-on-rails) | `░░░░░░░░░░` 0/105 | 2026-05-30 |
-|  | [Scala](roadmaps/skill-based/scala/) · [↗](https://roadmap.sh/scala) | `░░░░░░░░░░` 0/89 | 2026-05-30 |
-|  | [Shell / Bash](roadmaps/skill-based/shell-bash/) · [↗](https://roadmap.sh/shell-bash) | `░░░░░░░░░░` 0/75 | 2026-05-30 |
-|  | [Software Design & Architecture](roadmaps/skill-based/software-design-architecture/) · [↗](https://roadmap.sh/software-design-architecture) | `░░░░░░░░░░` 0/90 | 2026-05-30 |
-|  | [Spring Boot](roadmaps/skill-based/spring-boot/) · [↗](https://roadmap.sh/spring-boot) | `░░░░░░░░░░` 0/76 | 2026-05-30 |
-|  | [SQL](roadmaps/skill-based/sql/) · [↗](https://roadmap.sh/sql) | `░░░░░░░░░░` 0/87 | 2026-05-30 |
-|  | [Swift & SwiftUI](roadmaps/skill-based/swift-ui/) · [↗](https://roadmap.sh/swift-ui) | `░░░░░░░░░░` 0/85 | 2026-05-30 |
-|  | [Vibe Coding](roadmaps/skill-based/vibe-coding/) · [↗](https://roadmap.sh/vibe-coding) | `░░░░░░░░░░` 0/45 | 2026-05-30 |
-|  | [Vue](roadmaps/skill-based/vue/) · [↗](https://roadmap.sh/vue) | `░░░░░░░░░░` 0/83 | 2026-05-30 |
-|  | [WordPress](roadmaps/skill-based/wordpress/) · [↗](https://roadmap.sh/wordpress) | `░░░░░░░░░░` 0/100 | 2026-05-30 |
+| Roadmap | Coverage | Updated |
+|---|---|---|
+| [Computer Science](roadmaps/skill-based/computer-science/) · [↗](https://roadmap.sh/computer-science) | `▓▓▓▓▓▓▓▓▓▓` 33/33 | 2026-05-30 |
+| [AI Agents](roadmaps/skill-based/ai-agents/) · [↗](https://roadmap.sh/ai-agents) | `░░░░░░░░░░` 0/91 | 2026-05-30 |
+| [Data Structures & Algorithms](roadmaps/skill-based/datastructures-and-algorithms/) · [↗](https://roadmap.sh/datastructures-and-algorithms) | `░░░░░░░░░░` 0/90 | 2026-05-30 |
+| [Docker](roadmaps/skill-based/docker/) · [↗](https://roadmap.sh/docker) | `░░░░░░░░░░` 0/84 | 2026-05-30 |
+| [Go](roadmaps/skill-based/golang/) · [↗](https://roadmap.sh/golang) | `░░░░░░░░░░` 0/93 | 2026-05-30 |
+| [Kubernetes](roadmaps/skill-based/kubernetes/) · [↗](https://roadmap.sh/kubernetes) | `░░░░░░░░░░` 0/93 | 2026-05-30 |
+| [Linux](roadmaps/skill-based/linux/) · [↗](https://roadmap.sh/linux) | `░░░░░░░░░░` 0/80 | 2026-05-30 |
+| [Prompt Engineering](roadmaps/skill-based/prompt-engineering/) · [↗](https://roadmap.sh/prompt-engineering) | `░░░░░░░░░░` 0/66 | 2026-05-30 |
+| [Python](roadmaps/skill-based/python/) · [↗](https://roadmap.sh/python) | `░░░░░░░░░░` 0/75 | 2026-05-30 |
+| [Rust](roadmaps/skill-based/rust/) · [↗](https://roadmap.sh/rust) | `░░░░░░░░░░` 0/92 | 2026-05-30 |
+| [System Design](roadmaps/skill-based/system-design/) · [↗](https://roadmap.sh/system-design) | `░░░░░░░░░░` 0/42 | 2026-05-30 |
+| [Terraform](roadmaps/skill-based/terraform/) · [↗](https://roadmap.sh/terraform) | `░░░░░░░░░░` 0/80 | 2026-05-30 |
+| [TypeScript](roadmaps/skill-based/typescript/) · [↗](https://roadmap.sh/typescript) | `░░░░░░░░░░` 0/76 | 2026-05-30 |
+| [Angular](roadmaps/skill-based/angular/) · [↗](https://roadmap.sh/angular) | `░░░░░░░░░░` 0/90 | 2026-05-30 |
+| [ASP.NET Core](roadmaps/skill-based/aspnet-core/) · [↗](https://roadmap.sh/aspnet-core) | `░░░░░░░░░░` 0/79 | 2026-05-30 |
+| [AWS](roadmaps/skill-based/aws/) · [↗](https://roadmap.sh/aws) | `░░░░░░░░░░` 0/92 | 2026-05-30 |
+| [C++](roadmaps/skill-based/cpp/) · [↗](https://roadmap.sh/cpp) | `░░░░░░░░░░` 0/91 | 2026-05-30 |
+| [Claude Code](roadmaps/skill-based/claude-code/) · [↗](https://roadmap.sh/claude-code) | `░░░░░░░░░░` 0/65 | 2026-05-30 |
+| [Cloudflare](roadmaps/skill-based/cloudflare/) · [↗](https://roadmap.sh/cloudflare) | `░░░░░░░░░░` 0/70 | 2026-05-30 |
+| [CSS](roadmaps/skill-based/css/) · [↗](https://roadmap.sh/css) | `░░░░░░░░░░` 0/81 | 2026-05-30 |
+| [Design System](roadmaps/skill-based/design-system/) · [↗](https://roadmap.sh/design-system) | `░░░░░░░░░░` 0/65 | 2026-05-30 |
+| [Django](roadmaps/skill-based/django/) · [↗](https://roadmap.sh/django) | `░░░░░░░░░░` 0/73 | 2026-05-30 |
+| [Elasticsearch](roadmaps/skill-based/elasticsearch/) · [↗](https://roadmap.sh/elasticsearch) | `░░░░░░░░░░` 0/86 | 2026-05-30 |
+| [Flutter](roadmaps/skill-based/flutter/) · [↗](https://roadmap.sh/flutter) | `░░░░░░░░░░` 0/88 | 2026-05-30 |
+| [Git and GitHub](roadmaps/skill-based/git-github/) · [↗](https://roadmap.sh/git-github) | `░░░░░░░░░░` 0/71 | 2026-05-30 |
+| [GraphQL](roadmaps/skill-based/graphql/) · [↗](https://roadmap.sh/graphql) | `░░░░░░░░░░` 0/89 | 2026-05-30 |
+| [HTML](roadmaps/skill-based/html/) · [↗](https://roadmap.sh/html) | `░░░░░░░░░░` 0/76 | 2026-05-30 |
+| [Java](roadmaps/skill-based/java/) · [↗](https://roadmap.sh/java) | `░░░░░░░░░░` 0/82 | 2026-05-30 |
+| [JavaScript](roadmaps/skill-based/javascript/) · [↗](https://roadmap.sh/javascript) | `░░░░░░░░░░` 0/88 | 2026-05-30 |
+| [Kotlin](roadmaps/skill-based/kotlin/) · [↗](https://roadmap.sh/kotlin) | `░░░░░░░░░░` 0/77 | 2026-05-30 |
+| [Laravel](roadmaps/skill-based/laravel/) · [↗](https://roadmap.sh/laravel) | `░░░░░░░░░░` 0/103 | 2026-05-30 |
+| [LeetCode](roadmaps/skill-based/leetcode/) · [↗](https://roadmap.sh/leetcode) | `░░░░░░░░░░` 0/66 | 2026-05-30 |
+| [MongoDB](roadmaps/skill-based/mongodb/) · [↗](https://roadmap.sh/mongodb) | `░░░░░░░░░░` 0/117 | 2026-05-30 |
+| [Next.js](roadmaps/skill-based/nextjs/) · [↗](https://roadmap.sh/nextjs) | `░░░░░░░░░░` 0/76 | 2026-05-30 |
+| [Node.js](roadmaps/skill-based/nodejs/) · [↗](https://roadmap.sh/nodejs) | `░░░░░░░░░░` 0/90 | 2026-05-30 |
+| [OpenClaw](roadmaps/skill-based/openclaw/) · [↗](https://roadmap.sh/openclaw) | `░░░░░░░░░░` 0/53 | 2026-05-30 |
+| [PHP](roadmaps/skill-based/php/) · [↗](https://roadmap.sh/php) | `░░░░░░░░░░` 0/93 | 2026-05-30 |
+| [React](roadmaps/skill-based/react/) · [↗](https://roadmap.sh/react) | `░░░░░░░░░░` 0/79 | 2026-05-30 |
+| [React Native](roadmaps/skill-based/react-native/) · [↗](https://roadmap.sh/react-native) | `░░░░░░░░░░` 0/81 | 2026-05-30 |
+| [Redis](roadmaps/skill-based/redis/) · [↗](https://roadmap.sh/redis) | `░░░░░░░░░░` 0/76 | 2026-05-30 |
+| [Ruby](roadmaps/skill-based/ruby/) · [↗](https://roadmap.sh/ruby) | `░░░░░░░░░░` 0/87 | 2026-05-30 |
+| [Ruby on Rails](roadmaps/skill-based/ruby-on-rails/) · [↗](https://roadmap.sh/ruby-on-rails) | `░░░░░░░░░░` 0/105 | 2026-05-30 |
+| [Scala](roadmaps/skill-based/scala/) · [↗](https://roadmap.sh/scala) | `░░░░░░░░░░` 0/89 | 2026-05-30 |
+| [Shell / Bash](roadmaps/skill-based/shell-bash/) · [↗](https://roadmap.sh/shell-bash) | `░░░░░░░░░░` 0/75 | 2026-05-30 |
+| [Software Design & Architecture](roadmaps/skill-based/software-design-architecture/) · [↗](https://roadmap.sh/software-design-architecture) | `░░░░░░░░░░` 0/90 | 2026-05-30 |
+| [Spring Boot](roadmaps/skill-based/spring-boot/) · [↗](https://roadmap.sh/spring-boot) | `░░░░░░░░░░` 0/76 | 2026-05-30 |
+| [SQL](roadmaps/skill-based/sql/) · [↗](https://roadmap.sh/sql) | `░░░░░░░░░░` 0/87 | 2026-05-30 |
+| [Swift & SwiftUI](roadmaps/skill-based/swift-ui/) · [↗](https://roadmap.sh/swift-ui) | `░░░░░░░░░░` 0/85 | 2026-05-30 |
+| [Vibe Coding](roadmaps/skill-based/vibe-coding/) · [↗](https://roadmap.sh/vibe-coding) | `░░░░░░░░░░` 0/45 | 2026-05-30 |
+| [Vue](roadmaps/skill-based/vue/) · [↗](https://roadmap.sh/vue) | `░░░░░░░░░░` 0/83 | 2026-05-30 |
+| [WordPress](roadmaps/skill-based/wordpress/) · [↗](https://roadmap.sh/wordpress) | `░░░░░░░░░░` 0/100 | 2026-05-30 |
 
 ## Best Practices
 
-| | Roadmap | Coverage | Updated |
-|---|---|---|---|
-|  | [API Security](roadmaps/best-practices/api-security/) · [↗](https://roadmap.sh/best-practices/api-security) | `░░░░░░░░░░` 0/52 | 2026-05-30 |
-|  | [Backend Performance](roadmaps/best-practices/backend-performance/) · [↗](https://roadmap.sh/best-practices/backend-performance) | `░░░░░░░░░░` 0/67 | 2026-05-30 |
-|  | [Code Review](roadmaps/best-practices/code-review/) · [↗](https://roadmap.sh/best-practices/code-review) | `░░░░░░░░░░` 0/64 | 2026-05-30 |
-|  | [Frontend Performance](roadmaps/best-practices/frontend-performance/) · [↗](https://roadmap.sh/best-practices/frontend-performance) | `░░░░░░░░░░` 0/69 | 2026-05-30 |
+| Roadmap | Coverage | Updated |
+|---|---|---|
+| [API Security](roadmaps/best-practices/api-security/) · [↗](https://roadmap.sh/best-practices/api-security) | `░░░░░░░░░░` 0/52 | 2026-05-30 |
+| [Backend Performance](roadmaps/best-practices/backend-performance/) · [↗](https://roadmap.sh/best-practices/backend-performance) | `░░░░░░░░░░` 0/67 | 2026-05-30 |
+| [Code Review](roadmaps/best-practices/code-review/) · [↗](https://roadmap.sh/best-practices/code-review) | `░░░░░░░░░░` 0/64 | 2026-05-30 |
+| [Frontend Performance](roadmaps/best-practices/frontend-performance/) · [↗](https://roadmap.sh/best-practices/frontend-performance) | `░░░░░░░░░░` 0/69 | 2026-05-30 |
 
 ## Beginner
 
-| | Roadmap | Coverage | Updated |
-|---|---|---|---|
-|  | [Backend Beginner](roadmaps/beginner/backend-beginner/) · [↗](https://roadmap.sh/backend-beginner) | `░░░░░░░░░░` 0/26 | 2026-05-30 |
-|  | [DevOps Beginner](roadmaps/beginner/devops-beginner/) · [↗](https://roadmap.sh/devops-beginner) | `░░░░░░░░░░` 0/29 | 2026-05-30 |
-|  | [Frontend Beginner](roadmaps/beginner/frontend-beginner/) · [↗](https://roadmap.sh/frontend-beginner) | `░░░░░░░░░░` 0/25 | 2026-05-30 |
-|  | [Git and GitHub (Beginner)](roadmaps/beginner/git-github-beginner/) · [↗](https://roadmap.sh/git-github-beginner) | `░░░░░░░░░░` 0/27 | 2026-05-30 |
+| Roadmap | Coverage | Updated |
+|---|---|---|
+| [Backend Beginner](roadmaps/beginner/backend-beginner/) · [↗](https://roadmap.sh/backend-beginner) | `░░░░░░░░░░` 0/26 | 2026-05-30 |
+| [DevOps Beginner](roadmaps/beginner/devops-beginner/) · [↗](https://roadmap.sh/devops-beginner) | `░░░░░░░░░░` 0/29 | 2026-05-30 |
+| [Frontend Beginner](roadmaps/beginner/frontend-beginner/) · [↗](https://roadmap.sh/frontend-beginner) | `░░░░░░░░░░` 0/25 | 2026-05-30 |
+| [Git and GitHub (Beginner)](roadmaps/beginner/git-github-beginner/) · [↗](https://roadmap.sh/git-github-beginner) | `░░░░░░░░░░` 0/27 | 2026-05-30 |

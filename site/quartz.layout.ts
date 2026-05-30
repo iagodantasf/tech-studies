@@ -1,26 +1,28 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// Roadmaps are filed under roadmaps/<category>/. Show the category folders in intent
-// order (not alphabetical) and with nice labels in the explorer sidebar.
-const CATEGORY_LABELS: Record<string, string> = {
-  "role-based": "Role-based",
-  "skill-based": "Skill-based",
-  "best-practices": "Best Practices",
-  beginner: "Beginner",
-}
-const CATEGORY_ORDER = Object.keys(CATEGORY_LABELS)
-
+// Roadmaps are filed under roadmaps/<category>/. Show those category folders in
+// intent order (not alphabetical) with nice labels.
+// IMPORTANT: Quartz serializes these functions with .toString() and rebuilds them
+// in the browser via new Function(), so they MUST be self-contained — no references
+// to outer-scope variables (that's why the maps are inlined inside each body).
 const explorerOptions = {
   folderDefaultState: "collapsed" as const,
   mapFn: (node: any) => {
-    const label = CATEGORY_LABELS[node.slugSegment]
-    if (node.isFolder && label) node.displayName = label
-    return node
+    const labels: Record<string, string> = {
+      "role-based": "Role-based",
+      "skill-based": "Skill-based",
+      "best-practices": "Best Practices",
+      beginner: "Beginner",
+    }
+    if (node.isFolder && labels[node.slugSegment]) {
+      node.displayName = labels[node.slugSegment]
+    }
   },
   sortFn: (a: any, b: any) => {
-    const ai = CATEGORY_ORDER.indexOf(a.slugSegment)
-    const bi = CATEGORY_ORDER.indexOf(b.slugSegment)
+    const order = ["role-based", "skill-based", "best-practices", "beginner"]
+    const ai = order.indexOf(a.slugSegment)
+    const bi = order.indexOf(b.slugSegment)
     if (ai !== -1 || bi !== -1) {
       return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi)
     }
