@@ -3,8 +3,14 @@
 
 cache = true
 max_cache_age = "2d"
-max_retries = 2
+max_retries = 3
 retry_wait_time = 2
+
+# Per-request timeout (s). Some docs hosts are slow under load; 20s default
+# produced transient CI timeouts. Cap concurrency so we don't overwhelm a single
+# host (and trip rate-limit/timeout) when checking the whole vault at once.
+timeout = 30
+max_concurrency = 8
 
 # Treat rate-limiting (429) and bot-blocking (403) as OK, and follow redirects.
 # Many docs/learning hosts (tableau, cloudflare, webpagetest, palantir, linuxjourney…)
