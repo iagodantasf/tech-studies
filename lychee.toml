@@ -28,4 +28,7 @@ exclude = [
   "^https?://roadmap\\.sh/",
   # LeetCode returns 403 to non-browser clients (anti-bot); the URL is valid.
   "^https?://leetcode\\.com/",
+  # thegooddocsproject.dev is a small community site that intermittently times out
+  # from CI runners (301 + multi-second TTFB); the URL is valid.
+  "^https?://thegooddocsproject\\.dev/",
 ]
