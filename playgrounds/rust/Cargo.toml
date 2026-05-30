@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = ["binary-search"]
+
+# Add a new experiment:
+#   cargo new --bin <name>     (run from this dir)
+#   then add "<name>" to members above.

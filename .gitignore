@@ -1,0 +1,55 @@
+# ─── OS ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*~
+
+# ─── OneDrive conflict copies (defensive) ─────────────
+*-DESKTOP-*
+*[Cc]onflict*
+
+# ─── Editors / IDE ────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ─── Obsidian (keep settings, drop cache/workspace) ───
+.obsidian/workspace*.json
+.obsidian/cache
+.obsidian/.trash/
+.trash/
+
+# ─── Node / TypeScript ────────────────────────────────
+node_modules/
+dist/
+build/
+.next/
+*.tsbuildinfo
+.pnpm-store/
+npm-debug.log*
+
+# ─── Python ───────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# ─── Rust ─────────────────────────────────────────────
+target/
+**/*.rs.bk
+
+# ─── Go ───────────────────────────────────────────────
+bin/
+*.test
+*.out
+
+# ─── Env / secrets ────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Claude Code skills tooling (external) ────────────
+.agents/
