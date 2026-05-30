@@ -8,7 +8,7 @@ import { dirname, join } from "node:path";
 const ROOT = dirname(dirname(fileURLToPath(import.meta.url)));
 const catalog = JSON.parse(readFileSync(join(ROOT, "scripts", "catalog.json"), "utf8"));
 
-const CATEGORY_ORDER = ["Role-based", "Skill-based", "Beginner", "Best Practices"];
+const CATEGORY_ORDER = ["Role-based", "Skill-based", "Best Practices"];
 const BAR_WIDTH = 10;
 const EMOJI = { "not-started": "⚪", learning: "🟡", done: "🟢" };
 

@@ -17,4 +17,6 @@ exclude = [
   # roadmap.sh — DASHBOARD.md links ~90 of these (generated from catalog.json);
   # bulk-checking one host rate-limits and adds no signal. Verified via the catalog.
   "^https?://roadmap\\.sh/",
+  # LeetCode returns 403 to non-browser clients (anti-bot); the URL is valid.
+  "^https?://leetcode\\.com/",
 ]

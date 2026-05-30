@@ -85,11 +85,6 @@
     { "slug": "leetcode", "title": "LeetCode", "category": "Skill-based", "priority": false },
     { "slug": "graphql", "title": "GraphQL", "category": "Skill-based", "priority": false },
 
-    { "slug": "frontend-beginner", "title": "Frontend Beginner", "category": "Beginner", "priority": false },
-    { "slug": "backend-beginner", "title": "Backend Beginner", "category": "Beginner", "priority": false },
-    { "slug": "devops-beginner", "title": "DevOps Beginner", "category": "Beginner", "priority": false },
-    { "slug": "git-github-beginner", "title": "Git and GitHub Beginner", "category": "Beginner", "priority": false },
-
     { "slug": "api-security", "title": "API Security", "category": "Best Practices", "priority": false },
     { "slug": "backend-performance", "title": "Backend Performance", "category": "Best Practices", "priority": false },
     { "slug": "frontend-performance", "title": "Frontend Performance", "category": "Best Practices", "priority": false },
