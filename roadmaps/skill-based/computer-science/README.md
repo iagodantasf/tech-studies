@@ -31,36 +31,36 @@ roadmaps.
 
 ### Algorithms
 - [[searching]]
-- Sorting (merge, quick, heap)
-- Recursion
-- Divide & conquer
-- Greedy algorithms
-- Dynamic programming
-- Backtracking
-- Graph algorithms (BFS, DFS, Dijkstra)
+- [[sorting]]
+- [[recursion]]
+- [[divide-and-conquer]]
+- [[greedy-algorithms]]
+- [[dynamic-programming]]
+- [[backtracking]]
+- [[graph-algorithms]]
 
 ### Complexity
-- Asymptotic notation (Big-O, Θ, Ω)
-- Time & space complexity
-- Complexity classes (P, NP)
+- [[asymptotic-notation]]
+- [[time-and-space-complexity]]
+- [[complexity-classes]]
 
 ### Math & bits
-- Bit manipulation
-- Number theory basics
-- Floating-point representation
-- Character encodings (ASCII, Unicode)
+- [[bit-manipulation]]
+- [[number-theory-basics]]
+- [[floating-point-representation]]
+- [[character-encodings]]
 
 ### Systems
-- Computer architecture (CPU, memory hierarchy, cache)
-- Operating systems (processes, threads, scheduling, memory mgmt)
-- Concurrency & deadlocks
-- Networking (OSI, TCP/IP, HTTP, DNS)
-- Databases (indexing, transactions)
+- [[computer-architecture]]
+- [[operating-systems]]
+- [[concurrency-and-deadlocks]]
+- [[networking]]
+- [[databases]]
 
 ### Theory
-- Automata & formal languages
-- Compilers & interpreters
-- Cryptography basics
+- [[automata-and-formal-languages]]
+- [[compilers-and-interpreters]]
+- [[cryptography-basics]]
 
 ## Resources
 See [resources.md](./resources.md).
