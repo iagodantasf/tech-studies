@@ -3,9 +3,17 @@
 A structured **wiki** for studying tech, organized around every [roadmap.sh](https://roadmap.sh/roadmaps)
 roadmap. Each roadmap is a *suggested path* of nodes; each node can have a **lesson** that teaches it.
 
+**Live site:** <https://iagodantasf.github.io/tech-studies/>
+
 > **This is an [Obsidian](https://obsidian.md)-compatible vault.** Pages are plain markdown with
 > frontmatter, `[[wikilinks]]`, and `#tags`. Open the folder as a vault for backlinks + graph, or
 > browse the published site / GitHub.
+
+**90 roadmaps** are mapped across four types — `role-based`, `skill-based`, `best-practices`,
+`beginner`. [**Computer Science**](roadmaps/skill-based/computer-science/) is the fully-written
+worked example: **33 lessons** across Foundations, Data structures, Algorithms, Complexity,
+Math & bits, Systems, and Theory. The rest are roadmap paths waiting for lessons — see
+[CATALOG.md](./CATALOG.md) for coverage.
 
 ## Quickstart
 
