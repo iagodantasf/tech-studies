@@ -27,5 +27,28 @@ jobs:
       - name: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          args: "--config lychee.toml './**/*.md'"
-          fail: true
+          # Don't let the action fail the job; we decide below. Checking 900+
+          # links against 500+ external hosts means a few will intermittently
+          # time out from CI runners — that's transient, not broken.
+          args: "--config lychee.toml --format json --output ./lychee.json './**/*.md'"
+          fail: false
+      - name: Fail only on real broken links (timeouts are transient)
+        run: |
+          node -e '
+            const r = require("./lychee.json");
+            const errs = r.errors || 0;
+            const timeouts = r.timeouts || 0;
+            if (timeouts) {
+              console.log(`::warning::lychee: tolerating ${timeouts} transient timeout(s)`);
+              for (const [f, list] of Object.entries(r.timeout_map || {}))
+                for (const i of list) console.log(`  timeout: ${i.url || JSON.stringify(i)} (${f})`);
+            }
+            const realErrors = Object.entries(r.error_map || {})
+              .flatMap(([f, list]) => list.map((i) => `${i.url || JSON.stringify(i)} (${f})`));
+            if (errs > 0 || realErrors.length) {
+              console.log(`::error::lychee: ${errs} broken link(s)`);
+              for (const e of realErrors) console.log(`  error: ${e}`);
+              process.exit(1);
+            }
+            console.log(`lychee OK — ${r.successful}/${r.total} links, ${timeouts} timeout(s) tolerated.`);
+          '

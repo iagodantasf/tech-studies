@@ -61,3 +61,6 @@ site/.quartz-cache/
 
 # ─── Claude Code skills tooling (external) ────────────
 .agents/
+
+# lychee CI report (generated)
+lychee.json
