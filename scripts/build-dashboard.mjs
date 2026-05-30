@@ -87,5 +87,10 @@ for (const cat of CATEGORY_ORDER) {
   out += `\n`;
 }
 
-writeFileSync(join(ROOT, "DASHBOARD.md"), out);
-console.log(`DASHBOARD.md written — ${rows.length} roadmaps, ${started} started, ${done} done.`);
+writeFileSync(join(ROOT, "DASHBOARD.md"), out.replace(/\n+$/, "\n"));
+
+// index.md = the Quartz site home page (same table, titled for the site).
+const home = `---\ntitle: tech-studies\n---\n${out.replace(/^# Dashboard\n/, "")}`;
+writeFileSync(join(ROOT, "index.md"), home.replace(/\n+$/, "\n"));
+
+console.log(`DASHBOARD.md + index.md written — ${rows.length} roadmaps, ${started} started, ${done} done.`);

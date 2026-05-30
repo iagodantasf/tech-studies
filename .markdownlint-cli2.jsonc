@@ -1,0 +1,33 @@
+{
+  // Lenient markdownlint config for an Obsidian-style notes vault.
+  // The vault uses a deliberately compact style (headings directly followed by
+  // lists, frontmatter `title:` plus a body H1). Rules conform to that style.
+  // Run: npx markdownlint-cli2
+  "config": {
+    "default": true,
+    "MD013": false, // line length — prose and tables run long
+    "MD022": false, // blanks around headings — vault uses compact heading→list
+    "MD024": false, // duplicate headings — Notes/Resources repeat across track files
+    "MD025": {
+      "front_matter_title": "" // don't treat frontmatter `title:` as a second H1
+    },
+    "MD029": false, // ordered list prefix style
+    "MD031": false, // blanks around fences — vault uses compact code fences
+    "MD032": false, // blanks around lists — compact style
+    "MD033": false, // inline HTML — templates use <!-- comments -->
+    "MD034": false, // bare URLs — "> roadmap.sh: https://..." headers
+    "MD036": false, // emphasis-as-heading
+    "MD040": false, // fenced code language — ASCII dir trees have none
+    "MD041": false, // first-line heading — YAML frontmatter precedes the H1
+    "MD060": false // table column padding — DASHBOARD.md is generated
+  },
+  "ignores": [
+    "node_modules/**",
+    "site/**",
+    "**/target/**",
+    ".agents/**"
+  ],
+  "globs": [
+    "**/*.md"
+  ]
+}

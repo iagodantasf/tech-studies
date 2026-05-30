@@ -1,0 +1,20 @@
+# Link checker config — https://lychee.cli.rs/usage/config/
+# Run: lychee --config lychee.toml "./**/*.md"
+
+cache = true
+max_cache_age = "2d"
+max_retries = 2
+retry_wait_time = 2
+
+# Treat rate-limiting as OK and follow redirects.
+accept = ["200..=299", "429"]
+
+# Don't descend into generated / vendored trees, or templates (their links are
+# placeholders like ./resources.md that only resolve once a track is scaffolded).
+exclude_path = ["node_modules", "site", "target", ".agents", "templates"]
+
+exclude = [
+  # roadmap.sh — DASHBOARD.md links ~90 of these (generated from catalog.json);
+  # bulk-checking one host rate-limits and adds no signal. Verified via the catalog.
+  "^https?://roadmap\\.sh/",
+]
