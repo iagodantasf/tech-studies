@@ -1,0 +1,16 @@
+---
+title: Slash commands
+track: claude-code
+group: Slash commands
+tags: [claude-code]
+---
+
+# Slash commands
+
+Lessons in this group, roughly in build order:
+
+- [[built-in-slash-commands]] — Built-in slash commands are REPL meta-commands (typed /name at the prompt) that control the session itself…
+- [[custom-slash-commands]] — A custom slash command is a Markdown file whose body becomes a reusable prompt template, invoked by its…
+- [[command-arguments-arguments]] — Argument placeholders let a custom slash command accept input at call time, so one template parameterizes…
+- [[namespaced-project-commands]] — Where a command file lives sets two things: its scope (project vs personal) and its namespace (the…
+- [[frontmatter-allowed-tools]] — A custom command's YAML frontmatter configures its metadata and — via allowed-tools — pre-authorizes a…

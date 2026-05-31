@@ -1,0 +1,16 @@
+---
+title: Stashing and tags
+track: git-github
+group: Stashing and tags
+tags: [git-github]
+---
+
+# Stashing and tags
+
+Lessons in this group, roughly in build order:
+
+- [[stashing-changes-git-stash]] — git stash shelves your uncommitted changes onto a hidden stack and reverts the working tree to a clean…
+- [[applying-and-dropping-stashes]] — The other half of stashing: replaying shelved changes back onto a working tree with apply or pop, and…
+- [[lightweight-vs-annotated-tags]] — The two kinds of Git tag: a lightweight tag is a bare named pointer to a commit, while an annotated tag is…
+- [[creating-and-pushing-tags]] — How to create tags (now or retroactively), publish them to a remote, and delete them — the mechanics…
+- [[semantic-versioning]] — SemVer is a MAJOR.MINOR.PATCH contract where the number you bump encodes whether a release breaks callers,…

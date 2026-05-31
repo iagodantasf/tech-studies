@@ -14,73 +14,73 @@ Suggested path through the **OpenClaw** nodes. Each node links to its lesson whe
 ## Nodes
 
 ### Background & Project Context
-- What is OpenClaw (Captain Claw reimplementation)
-- The Original Game (Monolith, 1997)
-- Goals of a Reimplementation (portability, modding, preservation)
-- Clean-Room vs Asset-Dependent Ports
-- Legal Boundaries (code vs original game assets)
-- Reading an Existing C++ Game Codebase
+- [[what-is-openclaw-captain-claw-reimplementation]]
+- [[the-original-game-monolith-1997]]
+- [[goals-of-a-reimplementation-portability-modding-preservation]]
+- [[clean-room-vs-asset-dependent-ports]]
+- [[legal-boundaries-code-vs-original-game-assets]]
+- [[reading-an-existing-c-game-codebase]]
 
 ### C++ Foundations for Engines
-- Modern C++ (C++11/14/17)
-- RAII & Resource Ownership
-- Smart Pointers (`unique_ptr`, `shared_ptr`)
-- Memory Layout & Cache Locality
-- The STL in Hot Paths
-- Build Systems (CMake)
-- Cross-Platform Compilation (GCC/Clang/MSVC)
-- Static & Dynamic Linking
-- Debugging (gdb / lldb / Visual Studio)
+- [[c-standards-c-11-14-17-20-23]]
+- [[raii]]
+- [[smart-pointers-unique-ptr-shared-ptr-weak-ptr]]
+- [[memory-layout-cache-locality]]
+- [[the-stl-in-hot-paths]]
+- [[build-systems-cmake-make]]
+- [[compilers-gcc-clang-msvc]]
+- [[static-dynamic-linking]]
+- [[debuggers-gdb-lldb]]
 
 ### Reverse Engineering & File Formats
-- Reverse Engineering Mindset & Ethics
-- Inspecting Binaries (hex editors, `strings`)
-- Disassembly Basics (IDA / Ghidra)
-- Identifying Proprietary File Formats
-- PID Image Format (Claw sprites)
-- WWD Level Format
-- REZ Archive / Resource Packs
-- XMI / Audio Format Extraction
-- Writing Format Parsers in C++
+- [[reverse-engineering-mindset-ethics]]
+- [[inspecting-binaries-hex-editors-strings]]
+- [[disassembly-basics-ida-ghidra]]
+- [[identifying-proprietary-file-formats]]
+- [[pid-image-format-claw-sprites]]
+- [[wwd-level-format]]
+- [[rez-archive-resource-packs]]
+- [[xmi-audio-format-extraction]]
+- [[writing-format-parsers-in-c]]
 
 ### Engine Architecture
-- Game Loop (fixed vs variable timestep)
-- Entity / Actor Model
-- Component & Logic Separation
-- Scene / Level Management
-- Resource Manager & Caching
-- Event System & Input Handling
-- Finite State Machines (actor states)
+- [[game-loop-fixed-vs-variable-timestep]]
+- [[entity-actor-model]]
+- [[component-logic-separation]]
+- [[scene-level-management]]
+- [[resource-manager-caching]]
+- [[event-system-input-handling]]
+- [[finite-state-machines-actor-states]]
 
 ### Rendering
-- SDL2 Setup & Window Management
-- 2D Sprite Rendering
-- Texture Atlases & Tilesets
-- Parallax Scrolling Backgrounds
-- Animation System (frames & timing)
-- Camera & Viewport
-- HUD & UI Overlay
+- [[sdl2-setup-window-management]]
+- [[2d-sprite-rendering]]
+- [[texture-atlases-tilesets]]
+- [[parallax-scrolling-backgrounds]]
+- [[animation-system-frames-timing]]
+- [[camera-viewport]]
+- [[hud-ui-overlay]]
 
 ### Audio
-- SDL_mixer Integration
-- Sound Effects & Channels
-- Music Playback (MIDI/XMI conversion)
+- [[sdl-mixer-integration]]
+- [[sound-effects-channels]]
+- [[music-playback-midi-xmi-conversion]]
 
 ### Gameplay Systems
-- AABB Collision Detection
-- Tile-Based Physics & Gravity
-- Player Controller (Claw movement)
-- Enemy AI Behaviours
-- Pickups, Score & Health
-- Checkpoints & Level Transitions
+- [[aabb-collision-detection]]
+- [[tile-based-physics-gravity]]
+- [[player-controller-claw-movement]]
+- [[enemy-ai-behaviours]]
+- [[pickups-score-health]]
+- [[checkpoints-level-transitions]]
 
 ### Tooling, Build & Distribution
-- Asset Extraction Pipeline
-- Logging & In-Game Console
-- Profiling & Performance Tuning
-- Continuous Integration for C++
-- Packaging for Windows / Linux / macOS
-- Contributing to the OpenClaw Repo
+- [[asset-extraction-pipeline]]
+- [[logging-in-game-console]]
+- [[profiling-performance-tuning]]
+- [[continuous-integration-for-c]]
+- [[packaging-for-windows-linux-macos]]
+- [[contributing-to-the-openclaw-repo]]
 
 ## Resources
 See [resources.md](./resources.md).

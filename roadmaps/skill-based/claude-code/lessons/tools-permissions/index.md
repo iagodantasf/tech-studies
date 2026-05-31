@@ -1,0 +1,16 @@
+---
+title: Tools & permissions
+track: claude-code
+group: Tools & permissions
+tags: [claude-code]
+---
+
+# Tools & permissions
+
+Lessons in this group, roughly in build order:
+
+- [[built-in-tools-read-edit-bash-etc]] — The fixed set of native capabilities — file I/O, shell, search, web, task delegation — that Claude Code…
+- [[permission-modes]] — The session-wide policy that decides, before any tool runs, whether Claude Code asks you, runs silently,…
+- [[allow-deny-rules]] — Per-tool, per-argument rules that pre-approve or hard-block specific tool calls, turning "the agent asks…
+- [[plan-mode]] — A read-only permission mode where Claude Code investigates and drafts a step-by-step plan but is…
+- [[auto-accept-bypass-modes]] — The two high-autonomy permission modes — acceptEdits (edits flow, commands still ask) and…

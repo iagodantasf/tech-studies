@@ -1,0 +1,19 @@
+---
+title: Remote repositories
+track: git-github
+group: Remote repositories
+tags: [git-github]
+---
+
+# Remote repositories
+
+Lessons in this group, roughly in build order:
+
+- [[what-is-a-remote]] — A remote is a named bookmark for another copy of the repository (a URL plus a fetch/push refspec), letting…
+- [[cloning-git-clone]] — git clone copies a remote repository's full object database to a new local directory, then wires up…
+- [[adding-and-managing-remotes-git-remote]] — git remote is the command to list, add, rename, re-URL, and remove the named remotes stored in .git/config
+- [[fetching-git-fetch]] — git fetch downloads new objects and updates remote-tracking branches (origin/*) from a remote without…
+- [[pulling-git-pull]] — git pull is a convenience command that runs git fetch followed by an integrate step (merge by default, or…
+- [[pushing-git-push]] — git push uploads your local commits to a remote and updates the remote's branch to point at them — the…
+- [[tracking-branches-and-upstream]] — An upstream is the link between a local branch and a remote-tracking branch (e.g
+- [[https-vs-ssh-authentication]] — The two transports Git uses to reach a hosted remote: HTTPS (URL like https://github.com/acme/api.git,…

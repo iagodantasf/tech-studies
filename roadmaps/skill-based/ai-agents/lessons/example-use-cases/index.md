@@ -1,0 +1,16 @@
+---
+title: Example Use Cases
+track: ai-agents
+group: Example Use Cases
+tags: [ai-agents]
+---
+
+# Example Use Cases
+
+Lessons in this group, roughly in build order:
+
+- [[personal-assistant]] — A personal-assistant agent is a long-lived agent-loop wired to a user's calendar, mail, and tasks that…
+- [[rag-agent]] — A RAG agent is an agent-loop where retrieval is a tool the model chooses to call — it decides when to…
+- [[code-generation]] — A code-generation agent writes and edits code in a real repo, then runs the tests and compiler to verify…
+- [[data-analysis]] — A data-analysis agent answers questions about a dataset by writing and running code (pandas/SQL) in a…
+- [[npc-game-ai]] — An LLM-driven non-player character is an agent whose "tools" are in-game actions and whose context is the…

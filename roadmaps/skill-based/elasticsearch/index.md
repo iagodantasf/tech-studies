@@ -14,114 +14,114 @@ Suggested path through the **Elasticsearch** nodes. Each node links to its lesso
 ## Nodes
 
 ### Introduction
-- What is Elasticsearch?
-- Search engine fundamentals
-- Elasticsearch vs relational databases
-- The Elastic Stack (ELK / Elastic)
-- Use cases (search, logging, observability, analytics)
-- Apache Lucene foundations
-- Installing Elasticsearch
+- [[what-is-elasticsearch]]
+- [[search-engine-fundamentals]]
+- [[elasticsearch-vs-relational-databases]]
+- [[the-elastic-stack-elk-elastic]]
+- [[use-cases-search-logging-observability-analytics]]
+- [[apache-lucene-foundations]]
+- [[installing-elasticsearch]]
 
 ### Core Concepts
-- Documents
-- Indices
-- Fields & data types
-- Mappings
-- Inverted index
-- Shards & replicas
-- Nodes & cluster
-- Segments
-- Near real-time search
+- [[documents]]
+- [[indices]]
+- [[fields-data-types]]
+- [[mappings]]
+- [[inverted-index]]
+- [[shards-replicas]]
+- [[nodes-cluster]]
+- [[segments]]
+- [[near-real-time-search]]
 
 ### Mappings & Text Analysis
-- Dynamic vs explicit mapping
-- Core field types (text, keyword, numeric, date, boolean)
-- Object & nested fields
-- Analyzers (standard, language, custom)
-- Tokenizers
-- Token filters & character filters
-- Normalizers
-- Multi-fields
+- [[dynamic-vs-explicit-mapping]]
+- [[core-field-types-text-keyword-numeric-date-boolean]]
+- [[object-nested-fields]]
+- [[analyzers-standard-language-custom]]
+- [[tokenizers]]
+- [[token-filters-character-filters]]
+- [[normalizers]]
+- [[multi-fields]]
 
 ### Indexing Data (CRUD)
-- Index API
-- Get / Update / Delete APIs
-- Bulk API
-- Reindex API
-- Update by query / Delete by query
-- Optimistic concurrency control (versioning)
-- Ingest pipelines
+- [[index-api]]
+- [[get-update-delete-apis]]
+- [[bulk-api]]
+- [[reindex-api]]
+- [[update-by-query-delete-by-query]]
+- [[optimistic-concurrency-control-versioning]]
+- [[ingest-pipelines]]
 
 ### Querying (Query DSL)
-- Query DSL overview
-- Query vs filter context
-- Match & match_phrase queries
-- Term-level queries
-- Bool query (must / should / must_not / filter)
-- Range queries
-- Full-text search
-- Compound queries
-- Relevance scoring (BM25)
-- Pagination (from/size, search_after, scroll)
-- Sorting
-- Highlighting
+- [[query-dsl-overview]]
+- [[query-vs-filter-context]]
+- [[match-match-phrase-queries]]
+- [[term-level-queries]]
+- [[bool-query-must-should-must-not-filter]]
+- [[range-queries]]
+- [[full-text-search]]
+- [[compound-queries]]
+- [[relevance-scoring-bm25]]
+- [[pagination-from-size-search-after-scroll]]
+- [[sorting]]
+- [[highlighting]]
 
 ### Aggregations
-- Metric aggregations
-- Bucket aggregations
-- Pipeline aggregations
-- Nested aggregations
-- Cardinality & percentiles
+- [[metric-aggregations]]
+- [[bucket-aggregations]]
+- [[pipeline-aggregations]]
+- [[nested-aggregations]]
+- [[cardinality-percentiles]]
 
 ### Advanced Search Features
-- Suggesters & autocomplete
-- Fuzzy & wildcard search
-- Geo queries
-- Percolate queries
-- Search templates
-- Runtime fields
-- kNN / vector search
+- [[suggesters-autocomplete]]
+- [[fuzzy-wildcard-search]]
+- [[geo-queries]]
+- [[percolate-queries]]
+- [[search-templates]]
+- [[runtime-fields]]
+- [[knn-vector-search]]
 
 ### Cluster Architecture & Operations
-- Node roles (master, data, ingest, coordinating)
-- Discovery & cluster formation
-- Shard allocation & routing
-- Cluster health (green / yellow / red)
-- Index lifecycle management (ILM)
-- Snapshots & restore
-- Rolling upgrades
+- [[node-roles-master-data-ingest-coordinating]]
+- [[discovery-cluster-formation]]
+- [[shard-allocation-routing]]
+- [[cluster-health-green-yellow-red]]
+- [[index-lifecycle-management-ilm]]
+- [[snapshots-restore]]
+- [[rolling-upgrades]]
 
 ### Performance & Scaling
-- Sharding strategy
-- Index templates
-- Data streams
-- Hot-warm-cold architecture
-- Bulk indexing tuning
-- Caching (query / request cache)
-- Force merge & refresh interval
+- [[sharding-strategy]]
+- [[index-templates]]
+- [[data-streams]]
+- [[hot-warm-cold-architecture]]
+- [[bulk-indexing-tuning]]
+- [[caching-query-request-cache]]
+- [[force-merge-refresh-interval]]
 
 ### Security
-- Authentication & users
-- Role-based access control (RBAC)
-- TLS encryption
-- API keys
-- Field & document level security
-- Audit logging
+- [[authentication-users]]
+- [[role-based-access-control-rbac]]
+- [[tls-encryption]]
+- [[api-keys]]
+- [[field-document-level-security]]
+- [[audit-logging]]
 
 ### The Elastic Stack
-- Kibana
-- Logstash
-- Beats (Filebeat, Metricbeat)
-- Elastic Agent & Fleet
-- APM & observability
+- [[kibana]]
+- [[logstash]]
+- [[beats-filebeat-metricbeat]]
+- [[elastic-agent-fleet]]
+- [[apm-observability]]
 
 ### Clients & Ecosystem
-- REST API
-- Official language clients
-- Elasticsearch SQL
-- Painless scripting
-- Monitoring & alerting
-- Elastic Cloud / managed offerings
+- [[rest-api]]
+- [[official-language-clients]]
+- [[elasticsearch-sql]]
+- [[painless-scripting]]
+- [[monitoring-alerting]]
+- [[elastic-cloud-managed-offerings]]
 
 ## Resources
 See [resources.md](./resources.md).

@@ -14,93 +14,93 @@ Suggested path through the **Claude Code** nodes. Each node links to its lesson 
 ## Nodes
 
 ### Getting started
-- What is Claude Code
-- Installation & Setup
-- Authentication & API Keys
-- First Session & REPL Basics
-- Choosing a Model
-- Pricing & Token Usage
+- [[what-is-claude-code]]
+- [[installation-setup]]
+- [[authentication-api-keys]]
+- [[first-session-repl-basics]]
+- [[choosing-a-model]]
+- [[pricing-token-usage]]
 
 ### CLI usage
-- Interactive Mode
-- One-Shot / Print Mode (-p)
-- Piping Input & Output
-- CLI Flags & Options
-- Resuming & Continuing Sessions
-- Managing Context (/clear, /compact)
-- Image & File Input
-- Keyboard Shortcuts & Vim Mode
+- [[interactive-mode]]
+- [[one-shot-print-mode-p]]
+- [[piping-input-output]]
+- [[cli-flags-options]]
+- [[resuming-continuing-sessions]]
+- [[managing-context-clear-compact]]
+- [[image-file-input]]
+- [[keyboard-shortcuts-vim-mode]]
 
 ### Project configuration
-- CLAUDE.md Project Memory
-- Nested & Imported Memory Files
-- User vs Project vs Local Memory
-- .claudeignore & File Scoping
+- [[claude-md-project-memory]]
+- [[nested-imported-memory-files]]
+- [[user-vs-project-vs-local-memory]]
+- [[claudeignore-file-scoping]]
 
 ### Slash commands
-- Built-in Slash Commands
-- Custom Slash Commands
-- Command Arguments ($ARGUMENTS)
-- Namespaced & Project Commands
-- Frontmatter & Allowed Tools
+- [[built-in-slash-commands]]
+- [[custom-slash-commands]]
+- [[command-arguments-arguments]]
+- [[namespaced-project-commands]]
+- [[frontmatter-allowed-tools]]
 
 ### Tools & permissions
-- Built-in Tools (Read, Edit, Bash, etc.)
-- Permission Modes
-- Allow / Deny Rules
-- Plan Mode
-- Auto-Accept & Bypass Modes
+- [[built-in-tools-read-edit-bash-etc]]
+- [[permission-modes]]
+- [[allow-deny-rules]]
+- [[plan-mode]]
+- [[auto-accept-bypass-modes]]
 
 ### Settings
-- settings.json Hierarchy
-- User & Project Settings
-- Environment Variables
-- Model & Output Configuration
-- Managed / Enterprise Policy Settings
+- [[settings-json-hierarchy]]
+- [[user-project-settings]]
+- [[environment-variables]]
+- [[model-output-configuration]]
+- [[managed-enterprise-policy-settings]]
 
 ### Hooks
-- Hooks Overview & Lifecycle
-- PreToolUse & PostToolUse Hooks
-- UserPromptSubmit & Stop Hooks
-- Notification & SessionStart Hooks
-- Writing & Debugging Hook Scripts
+- [[hooks-overview-lifecycle]]
+- [[pretooluse-posttooluse-hooks]]
+- [[userpromptsubmit-stop-hooks]]
+- [[notification-sessionstart-hooks]]
+- [[writing-debugging-hook-scripts]]
 
 ### MCP (Model Context Protocol)
-- What is MCP
-- Adding MCP Servers
-- stdio vs SSE / HTTP Servers
-- MCP Tools, Resources & Prompts
-- MCP Authentication & Scopes
-- Building a Custom MCP Server
+- [[what-is-mcp]]
+- [[adding-mcp-servers]]
+- [[stdio-vs-sse-http-servers]]
+- [[mcp-tools-resources-prompts]]
+- [[mcp-authentication-scopes]]
+- [[building-a-custom-mcp-server]]
 
 ### Subagents
-- What are Subagents
-- Defining Custom Subagents
-- Subagent System Prompts & Tools
-- Delegating Tasks to Subagents
-- The Task Tool & Parallelism
+- [[what-are-subagents]]
+- [[defining-custom-subagents]]
+- [[subagent-system-prompts-tools]]
+- [[delegating-tasks-to-subagents]]
+- [[the-task-tool-parallelism]]
 
 ### IDE integrations
-- VS Code Extension
-- JetBrains Integration
-- Terminal vs IDE Workflow
-- Diff Viewing & Inline Edits
+- [[vs-code-extension]]
+- [[jetbrains-integration]]
+- [[terminal-vs-ide-workflow]]
+- [[diff-viewing-inline-edits]]
 
 ### Agent SDK
-- Claude Agent SDK Overview
-- TypeScript SDK
-- Python SDK
-- Programmatic Sessions & Streaming
-- Custom Tools & MCP in the SDK
-- Building Headless Agents
+- [[claude-agent-sdk-overview]]
+- [[typescript-sdk]]
+- [[python-sdk]]
+- [[programmatic-sessions-streaming]]
+- [[custom-tools-mcp-in-the-sdk]]
+- [[building-headless-agents]]
 
 ### Workflows & automation
-- Headless / CI Usage
-- GitHub Actions Integration
-- Git & PR Workflows
-- Multi-Step Agentic Tasks
-- Cost & Context Optimization
-- Security & Safe Tool Use
+- [[headless-ci-usage]]
+- [[github-actions-integration]]
+- [[git-pr-workflows]]
+- [[multi-step-agentic-tasks]]
+- [[cost-context-optimization]]
+- [[security-safe-tool-use]]
 
 ## Resources
 See [resources.md](./resources.md).

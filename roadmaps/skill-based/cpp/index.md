@@ -14,117 +14,117 @@ Suggested path through the **C++** nodes. Each node links to its lesson when wri
 ## Nodes
 
 ### Introduction
-- What is C++
-- C++ vs C
-- C++ Standards (C++11/14/17/20/23)
-- Setting up the Environment
-- Compilers (GCC, Clang, MSVC)
-- Running First Program
-- How C++ Works (Compilation Model)
+- [[what-is-c]]
+- [[c-vs-c]]
+- [[c-standards-c-11-14-17-20-23]]
+- [[setting-up-the-environment]]
+- [[compilers-gcc-clang-msvc]]
+- [[running-first-program]]
+- [[how-c-works-compilation-model]]
 
 ### Basics / Syntax
-- Variables and Constants
-- Data Types
-- Type Modifiers
-- `auto` and Type Inference
-- Operators
-- Conditionals (if / switch)
-- Loops (for / while / do-while)
-- Range-based for Loop
-- Comments
-- Input / Output (iostream)
+- [[variables-and-constants]]
+- [[data-types]]
+- [[type-modifiers]]
+- [[auto-and-type-inference]]
+- [[operators]]
+- [[conditionals-if-switch]]
+- [[loops-for-while-do-while]]
+- [[range-based-for-loop]]
+- [[comments]]
+- [[input-output-iostream]]
 
 ### Functions
-- Declaring & Defining Functions
-- Parameters and Arguments
-- Pass by Value / Reference / Pointer
-- Default Arguments
-- Function Overloading
-- Inline Functions
-- Lambda Expressions
-- `constexpr` Functions
-- Recursion
+- [[declaring-defining-functions]]
+- [[parameters-and-arguments]]
+- [[pass-by-value-reference-pointer]]
+- [[default-arguments]]
+- [[function-overloading]]
+- [[inline-functions]]
+- [[lambda-expressions]]
+- [[constexpr-functions]]
+- [[recursion]]
 
 ### Pointers & References
-- Pointers
-- References
-- Pointer Arithmetic
-- `nullptr`
-- Const Pointers / Pointer to Const
-- Smart Pointers (`unique_ptr`, `shared_ptr`, `weak_ptr`)
-- Dangling Pointers & Memory Leaks
+- [[pointers]]
+- [[references]]
+- [[pointer-arithmetic]]
+- [[nullptr]]
+- [[const-pointers-pointer-to-const]]
+- [[smart-pointers-unique-ptr-shared-ptr-weak-ptr]]
+- [[dangling-pointers-memory-leaks]]
 
 ### Memory Management
-- Stack vs Heap
-- `new` / `delete`
-- RAII
-- Object Lifetime
-- Move Semantics & Rvalue References
-- Copy vs Move
+- [[stack-vs-heap]]
+- [[new-delete]]
+- [[raii]]
+- [[object-lifetime]]
+- [[move-semantics-rvalue-references]]
+- [[copy-vs-move]]
 
 ### Structures & OOP
-- Structs
-- Classes & Objects
-- Access Specifiers
-- Constructors & Destructors
-- Copy / Move Constructors
-- Operator Overloading
-- `this` Pointer
-- Static Members
-- Friend Functions / Classes
-- Inheritance
-- Polymorphism & Virtual Functions
-- Abstract Classes & Interfaces
-- Encapsulation
-- The Rule of 0 / 3 / 5
+- [[structs]]
+- [[classes-objects]]
+- [[access-specifiers]]
+- [[constructors-destructors]]
+- [[copy-move-constructors]]
+- [[operator-overloading]]
+- [[this-pointer]]
+- [[static-members]]
+- [[friend-functions-classes]]
+- [[inheritance]]
+- [[polymorphism-virtual-functions]]
+- [[abstract-classes-interfaces]]
+- [[encapsulation]]
+- [[the-rule-of-0-3-5]]
 
 ### Templates & Generics
-- Function Templates
-- Class Templates
-- Template Specialization
-- Variadic Templates
-- Concepts (C++20)
-- SFINAE
-- Template Metaprogramming
+- [[function-templates]]
+- [[class-templates]]
+- [[template-specialization]]
+- [[variadic-templates]]
+- [[concepts-c-20]]
+- [[sfinae]]
+- [[template-metaprogramming]]
 
 ### Standard Library (STL)
-- Containers (vector, array, list, deque)
-- Associative Containers (map, set, unordered_map)
-- Iterators
-- Algorithms (`<algorithm>`)
-- `std::string` / `std::string_view`
-- Utility Types (`pair`, `tuple`, `optional`, `variant`, `any`)
-- `std::span`
-- Function Objects & `std::function`
-- Ranges (C++20)
+- [[containers-vector-array-list-deque]]
+- [[associative-containers-map-set-unordered-map]]
+- [[iterators]]
+- [[algorithms-algorithm]]
+- [[std-string-std-string-view]]
+- [[utility-types-pair-tuple-optional-variant-any]]
+- [[std-span]]
+- [[function-objects-std-function]]
+- [[ranges-c-20]]
 
 ### Error Handling
-- Exceptions (try / catch / throw)
-- Exception Safety Guarantees
-- `noexcept`
-- Error Codes & `std::expected`
-- Assertions
+- [[exceptions-try-catch-throw]]
+- [[exception-safety-guarantees]]
+- [[noexcept]]
+- [[error-codes-std-expected]]
+- [[assertions]]
 
 ### Concurrency
-- Threads (`std::thread`)
-- Mutexes & Locks
-- Condition Variables
-- Atomics
-- `std::async` / Futures & Promises
-- Memory Model & Data Races
-- Coroutines (C++20)
+- [[threads-std-thread]]
+- [[mutexes-locks]]
+- [[condition-variables]]
+- [[atomics]]
+- [[std-async-futures-promises]]
+- [[memory-model-data-races]]
+- [[coroutines-c-20]]
 
 ### Tooling & Build
-- Preprocessor & Macros
-- Header / Source Separation
-- Build Systems (CMake, Make)
-- Package Managers (vcpkg, Conan)
-- Debuggers (gdb / lldb)
-- Sanitizers (ASan, UBSan, TSan)
-- Static Analysis (clang-tidy, cppcheck)
-- Profilers (perf, Valgrind)
-- Unit Testing (GoogleTest, Catch2)
-- Modules (C++20)
+- [[preprocessor-macros]]
+- [[header-source-separation]]
+- [[build-systems-cmake-make]]
+- [[package-managers-vcpkg-conan]]
+- [[debuggers-gdb-lldb]]
+- [[sanitizers-asan-ubsan-tsan]]
+- [[static-analysis-clang-tidy-cppcheck]]
+- [[profilers-perf-valgrind]]
+- [[unit-testing-googletest-catch2]]
+- [[modules-c-20]]
 
 ## Resources
 See [resources.md](./resources.md).

@@ -1,0 +1,16 @@
+---
+title: Settings
+track: claude-code
+group: Settings
+tags: [claude-code]
+---
+
+# Settings
+
+Lessons in this group, roughly in build order:
+
+- [[settings-json-hierarchy]] — The layered settings.json files that configure Claude Code — permissions, hooks, env, model — merged from…
+- [[user-project-settings]] — The two developer-owned settings tiers — ~/.claude/settings.json for you everywhere, .claude/settings.json…
+- [[environment-variables]] — Process-level variables that configure Claude Code's auth, model, endpoint, and limits — the layer that…
+- [[model-output-configuration]] — How to pin which model a session uses and shape what the CLI emits — text, JSON, or streamed events —…
+- [[managed-enterprise-policy-settings]] — An admin-deployed managed-settings.json that sits at the top of the settings hierarchy and enforces…

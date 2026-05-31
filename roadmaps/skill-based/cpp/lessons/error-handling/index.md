@@ -1,0 +1,16 @@
+---
+title: Error Handling
+track: cpp
+group: Error Handling
+tags: [cpp]
+---
+
+# Error Handling
+
+Lessons in this group, roughly in build order:
+
+- [[exceptions-try-catch-throw]] — Exceptions transfer control from a throw to the nearest matching catch, unwinding the stack and destroying…
+- [[exception-safety-guarantees]] — A four-level contract (Abrahams guarantees) describing what invariants a function preserves if an…
+- [[noexcept]] — noexcept is both a specifier that promises a function throws nothing, and an operator that asks at compile…
+- [[error-codes-std-expected]] — The value-based alternative to exceptions: a function returns either a result or an error, encoded in the…
+- [[assertions]] — An assertion checks a condition that must hold if the program is correct, aborting (or failing to compile)…

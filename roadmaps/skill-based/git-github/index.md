@@ -14,95 +14,95 @@ Suggested path through the **Git and GitHub** nodes. Each node links to its less
 ## Nodes
 
 ### Version control basics
-- What is version control?
-- Centralized vs distributed VCS
-- What is Git?
-- Git vs GitHub
-- Installing and configuring Git
-- git config (user.name, user.email, core.editor)
-- Getting help (git help, man, -h)
+- [[what-is-version-control]]
+- [[centralized-vs-distributed-vcs]]
+- [[what-is-git]]
+- [[git-vs-github]]
+- [[installing-and-configuring-git]]
+- [[git-config-user-name-user-email-core-editor]]
+- [[getting-help-git-help-man-h]]
 
 ### Git fundamentals
-- Initializing a repository (git init)
-- The working directory, staging area, and repository
-- Tracking changes (git add)
-- Committing (git commit)
-- Checking status (git status)
-- Viewing history (git log)
-- Viewing changes (git diff)
-- Ignoring files (.gitignore)
-- Removing and moving files (git rm, git mv)
+- [[initializing-a-repository-git-init]]
+- [[the-working-directory-staging-area-and-repository]]
+- [[tracking-changes-git-add]]
+- [[committing-git-commit]]
+- [[checking-status-git-status]]
+- [[viewing-history-git-log]]
+- [[viewing-changes-git-diff]]
+- [[ignoring-files-gitignore]]
+- [[removing-and-moving-files-git-rm-git-mv]]
 
 ### Branching and merging
-- What is a branch?
-- Creating and switching branches (git branch, git switch, git checkout)
-- Merging branches (git merge)
-- Fast-forward vs three-way merge
-- Resolving merge conflicts
-- Deleting branches
-- Branching strategies (Git Flow, GitHub Flow, trunk-based)
+- [[what-is-a-branch]]
+- [[creating-and-switching-branches-git-branch-git-switch-git-checkout]]
+- [[merging-branches-git-merge]]
+- [[fast-forward-vs-three-way-merge]]
+- [[resolving-merge-conflicts]]
+- [[deleting-branches]]
+- [[branching-strategies-git-flow-github-flow-trunk-based]]
 
 ### Remote repositories
-- What is a remote?
-- Cloning (git clone)
-- Adding and managing remotes (git remote)
-- Fetching (git fetch)
-- Pulling (git pull)
-- Pushing (git push)
-- Tracking branches and upstream
-- HTTPS vs SSH authentication
+- [[what-is-a-remote]]
+- [[cloning-git-clone]]
+- [[adding-and-managing-remotes-git-remote]]
+- [[fetching-git-fetch]]
+- [[pulling-git-pull]]
+- [[pushing-git-push]]
+- [[tracking-branches-and-upstream]]
+- [[https-vs-ssh-authentication]]
 
 ### Rewriting history
-- Amending commits (git commit --amend)
-- Rebasing (git rebase)
-- Interactive rebase (squash, fixup, reword, drop)
-- Cherry-picking (git cherry-pick)
-- Reverting commits (git revert)
-- Resetting (git reset --soft / --mixed / --hard)
-- Reflog and recovery (git reflog)
+- [[amending-commits-git-commit-amend]]
+- [[rebasing-git-rebase]]
+- [[interactive-rebase-squash-fixup-reword-drop]]
+- [[cherry-picking-git-cherry-pick]]
+- [[reverting-commits-git-revert]]
+- [[resetting-git-reset-soft-mixed-hard]]
+- [[reflog-and-recovery-git-reflog]]
 
 ### Stashing and tags
-- Stashing changes (git stash)
-- Applying and dropping stashes
-- Lightweight vs annotated tags
-- Creating and pushing tags
-- Semantic versioning
+- [[stashing-changes-git-stash]]
+- [[applying-and-dropping-stashes]]
+- [[lightweight-vs-annotated-tags]]
+- [[creating-and-pushing-tags]]
+- [[semantic-versioning]]
 
 ### Inspecting and undoing
-- git show
-- git blame
-- git bisect
-- Restoring files (git restore, git checkout --)
-- Cleaning untracked files (git clean)
+- [[git-show]]
+- [[git-blame]]
+- [[git-bisect]]
+- [[restoring-files-git-restore-git-checkout]]
+- [[cleaning-untracked-files-git-clean]]
 
 ### GitHub basics
-- Creating a GitHub account and repository
-- README, LICENSE, and repository structure
-- Forking a repository
-- Cloning vs forking
-- GitHub Issues
-- Pull Requests
-- Code review and comments
-- Merging PRs (merge, squash, rebase)
+- [[creating-a-github-account-and-repository]]
+- [[readme-license-and-repository-structure]]
+- [[forking-a-repository]]
+- [[cloning-vs-forking]]
+- [[github-issues]]
+- [[pull-requests]]
+- [[code-review-and-comments]]
+- [[merging-prs-merge-squash-rebase]]
 
 ### GitHub collaboration
-- Collaborators and teams
-- Branch protection rules
-- Reviewing and approving changes
-- Discussions
-- Projects and milestones
-- Labels and assignees
-- Notifications and watching
+- [[collaborators-and-teams]]
+- [[branch-protection-rules]]
+- [[reviewing-and-approving-changes]]
+- [[discussions]]
+- [[projects-and-milestones]]
+- [[labels-and-assignees]]
+- [[notifications-and-watching]]
 
 ### GitHub advanced
-- GitHub Actions and CI/CD
-- GitHub Pages
-- GitHub CLI (gh)
-- Personal access tokens and SSH keys
-- Releases and packages
-- Dependabot and security alerts
-- Gists
-- Submodules and monorepos
+- [[github-actions-and-ci-cd]]
+- [[github-pages]]
+- [[github-cli-gh]]
+- [[personal-access-tokens-and-ssh-keys]]
+- [[releases-and-packages]]
+- [[dependabot-and-security-alerts]]
+- [[gists]]
+- [[submodules-and-monorepos]]
 
 ## Resources
 See [resources.md](./resources.md).

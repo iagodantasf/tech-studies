@@ -1,0 +1,16 @@
+---
+title: The Elastic Stack
+track: elasticsearch
+group: The Elastic Stack
+tags: [elasticsearch]
+---
+
+# The Elastic Stack
+
+Lessons in this group, roughly in build order:
+
+- [[kibana]] — Kibana is the browser-based UI and management plane for the Elastic Stack — it queries Elasticsearch over…
+- [[logstash]] — Logstash is a server-side ETL engine that ingests events from many sources, transforms them through a…
+- [[beats-filebeat-metricbeat]] — Beats are lightweight, single-purpose data shippers written in Go that run on the source host and forward…
+- [[elastic-agent-fleet]] — Elastic Agent is a single unified collector that replaces multiple Beats on a host; Fleet is the…
+- [[apm-observability]] — Elastic APM captures distributed traces, latency, and errors from instrumented apps; combined with logs…

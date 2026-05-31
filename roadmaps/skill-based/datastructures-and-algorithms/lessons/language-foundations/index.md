@@ -1,0 +1,16 @@
+---
+title: Language & foundations
+track: datastructures-and-algorithms
+group: Language & foundations
+tags: [datastructures-and-algorithms]
+---
+
+# Language & foundations
+
+Lessons in this group, roughly in build order:
+
+- [[pick-a-language]] — Choosing one language to master for algorithm practice, picked for a fast standard library and low…
+- [[language-syntax]] — The minimal vocabulary — declarations, literals, operators, indexing — that you must type without thinking…
+- [[control-structures]] — The branching and looping primitives — if/else, for, while, break/continue — that turn a flat list of…
+- [[functions]] — Named, reusable units of logic with parameters and a return value — the building block for decomposition…
+- [[basic-data-structures]] — The four built-in collections every DSA solution leans on — dynamic array, hash map, hash set, and the…

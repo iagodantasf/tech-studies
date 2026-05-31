@@ -1,0 +1,16 @@
+---
+title: Tool / Function Calling
+track: ai-agents
+group: Tool / Function Calling
+tags: [ai-agents]
+---
+
+# Tool / Function Calling
+
+Lessons in this group, roughly in build order:
+
+- [[llm-native-function-calling]] — Native function calling is a model capability where you declare typed tools in the request and the model…
+- [[openai-functions-calling]] — OpenAI's implementation of llm-native-function-calling on the Chat Completions API: you pass tools, the…
+- [[openai-assistant-api]] — A higher-level, stateful OpenAI API that manages conversation threads, built-in tools, and an explicit run…
+- [[anthropic-tool-use]] — Claude's implementation of llm-native-function-calling: you pass tools with an input_schema, and Claude…
+- [[gemini-function-calling]] — Google Gemini's take on llm-native-function-calling: you declare function_declarations, Gemini replies…

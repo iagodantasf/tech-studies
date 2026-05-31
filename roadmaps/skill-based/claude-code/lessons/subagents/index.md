@@ -1,0 +1,16 @@
+---
+title: Subagents
+track: claude-code
+group: Subagents
+tags: [claude-code]
+---
+
+# Subagents
+
+Lessons in this group, roughly in build order:
+
+- [[what-are-subagents]] — A subagent is a separate Claude instance Claude Code spawns to handle a scoped job in its own context…
+- [[defining-custom-subagents]] — A custom subagent is a single markdown file — YAML frontmatter (name, description, optional tools/model)…
+- [[subagent-system-prompts-tools]] — The two levers that shape a custom subagent: the markdown body (its system prompt, defining role and…
+- [[delegating-tasks-to-subagents]] — The practice of handing a scoped, self-contained job to a subagent — automatically by the main model, or…
+- [[the-task-tool-parallelism]] — Task is the built-in tool that spawns a subagent; emitting several Task calls in one turn runs those…

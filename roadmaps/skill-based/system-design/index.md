@@ -14,66 +14,66 @@ Suggested path through the **System Design** nodes. Each node links to its lesso
 ## Nodes
 
 ### Fundamentals
-- What is system design & how to approach it
-- Performance vs scalability
-- Latency vs throughput
-- Availability vs consistency (CAP theorem)
-- Consistency patterns (weak, eventual, strong)
-- Availability patterns (failover, replication)
-- Availability in numbers (the nines)
+- [[what-is-system-design-how-to-approach-it]]
+- [[performance-vs-scalability]]
+- [[latency-vs-throughput]]
+- [[availability-vs-consistency-cap-theorem]]
+- [[consistency-patterns-weak-eventual-strong]]
+- [[availability-patterns-failover-replication]]
+- [[availability-in-numbers-the-nines]]
 
 ### Networking & delivery
-- Domain Name System (DNS)
-- Content Delivery Network (CDN) — push vs pull
-- Load balancers — L4 vs L7, algorithms, active-passive/active-active
-- Reverse proxy (vs load balancer)
-- Horizontal vs vertical scaling
+- [[domain-name-system-dns]]
+- [[content-delivery-network-cdn-push-vs-pull]]
+- [[load-balancers-l4-vs-l7-algorithms-active-passive-active-active]]
+- [[reverse-proxy-vs-load-balancer]]
+- [[horizontal-vs-vertical-scaling]]
 
 ### Application layer
-- Application layer & microservices
-- Service discovery
-- API gateway (routing, aggregation, offloading)
+- [[application-layer-microservices]]
+- [[service-discovery]]
+- [[api-gateway-routing-aggregation-offloading]]
 
 ### Databases
-- RDBMS & replication (master-slave, master-master)
-- Federation
-- Sharding
-- Denormalization
-- SQL tuning
-- NoSQL — key-value, document, wide-column, graph
-- SQL vs NoSQL — when to use which
+- [[rdbms-replication-master-slave-master-master]]
+- [[federation]]
+- [[sharding]]
+- [[denormalization]]
+- [[sql-tuning]]
+- [[nosql-key-value-document-wide-column-graph]]
+- [[sql-vs-nosql-when-to-use-which]]
 
 ### Caching
-- Where to cache (client, CDN, web server, database, application)
-- Caching strategies — cache-aside, write-through, write-behind, refresh-ahead
-- Eviction policies & cache pitfalls
+- [[where-to-cache-client-cdn-web-server-database-application]]
+- [[caching-strategies-cache-aside-write-through-write-behind-refresh-ahead]]
+- [[eviction-policies-cache-pitfalls]]
 
 ### Asynchronism
-- Message queues
-- Task queues
-- Back pressure
-- Async request-reply
+- [[message-queues]]
+- [[task-queues]]
+- [[back-pressure]]
+- [[async-request-reply]]
 
 ### Communication
-- TCP vs UDP
-- RPC & gRPC
-- REST & GraphQL
-- HTTP
+- [[tcp-vs-udp]]
+- [[rpc-grpc]]
+- [[rest-graphql]]
+- [[http]]
 
 ### Resiliency & patterns
-- Circuit breaker, retry, throttling, bulkhead
-- Idempotent operations
-- Leader election
-- CQRS & event sourcing
-- Event-driven architecture
-- Strangler fig (incremental migration)
+- [[circuit-breaker-retry-throttling-bulkhead]]
+- [[idempotent-operations]]
+- [[leader-election]]
+- [[cqrs-event-sourcing]]
+- [[event-driven-architecture]]
+- [[strangler-fig-incremental-migration]]
 
 ### Observability
-- Health & performance monitoring
-- Instrumentation, alerts & visualization
+- [[health-performance-monitoring]]
+- [[instrumentation-alerts-visualization]]
 
 ### Security
-- Security basics (authn/authz, encryption, rate limiting)
+- [[security-basics-authn-authz-encryption-rate-limiting]]
 
 ## Resources
 See [resources.md](./resources.md).

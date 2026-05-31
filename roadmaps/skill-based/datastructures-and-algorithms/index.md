@@ -14,118 +14,118 @@ Suggested path through the **Data Structures & Algorithms** nodes. Each node lin
 ## Nodes
 
 ### Language & foundations
-- Pick a Language
-- Language Syntax
-- Control Structures
-- Functions
-- OOP Basics
-- Basic Data Structures
+- [[pick-a-language]]
+- [[language-syntax]]
+- [[control-structures]]
+- [[functions]]
+- [[programming-paradigms]]
+- [[basic-data-structures]]
 
 ### Algorithmic complexity
-- Algorithmic Complexity
-- Asymptotic Notation
-- Big O Notation
-- Big Ω (Omega) Notation
-- Big Θ (Theta) Notation
-- How to Calculate Complexity
-- Space Complexity
+- [[time-and-space-complexity]]
+- [[asymptotic-notation]]
+- [[asymptotic-notation]]
+- [[asymptotic-notation]]
+- [[asymptotic-notation]]
+- [[time-and-space-complexity]]
+- [[time-and-space-complexity]]
 
 ### Common runtimes
-- Common Runtimes
-- Constant
-- Logarithmic
-- Linear
-- Polynomial
-- Exponential
-- Factorial
+- [[common-runtimes]]
+- [[common-runtimes]]
+- [[common-runtimes]]
+- [[common-runtimes]]
+- [[common-runtimes]]
+- [[common-runtimes]]
+- [[common-runtimes]]
 
 ### Basic data structures
-- Array
-- Linked Lists
-- Stack
-- Queue
-- Hash Tables
-- String
+- [[arrays-and-dynamic-arrays]]
+- [[linked-lists]]
+- [[stacks-and-queues]]
+- [[stacks-and-queues]]
+- [[hash-tables]]
+- [[string]]
 
 ### Complex / advanced data structures
-- Complex Data Structures
-- Advanced Data Structures
-- Heap
-- Graph Data Structures
-- Directed Graph
-- Undirected Graph
-- Weighted Graph
-- Tries
-- Disjoint Set (Union-Find)
-- Fenwick Trees
-- Segment Trees
-- Suffix Arrays
-- Suffix Trees
+- [[complex-data-structures]]
+- [[complex-data-structures]]
+- [[heaps-and-priority-queues]]
+- [[graphs]]
+- [[graphs]]
+- [[graphs]]
+- [[graphs]]
+- [[tries]]
+- [[disjoint-set-union-find]]
+- [[fenwick-trees]]
+- [[segment-trees]]
+- [[suffix-arrays]]
+- [[suffix-trees]]
 
 ### Tree data structures
-- Binary Trees
-- Binary Search Trees
-- AVL Trees
-- B-Trees
-- 2-3 Trees
-- Red-Black Trees
-- Balanced (BB) Trees
-- ISAM
-- Indexing
+- [[trees]]
+- [[trees]]
+- [[avl-trees]]
+- [[b-trees]]
+- [[2-3-trees]]
+- [[red-black-trees]]
+- [[trees]]
+- [[isam]]
+- [[indexing]]
 
 ### Tree traversal
-- Tree Traversal
-- In-order Traversal
-- Pre-order Traversal
-- Post-order Traversal
+- [[tree-traversal]]
+- [[tree-traversal]]
+- [[tree-traversal]]
+- [[tree-traversal]]
 
 ### Search algorithms
-- Linear Search
-- Binary Search
-- Breadth First Search
-- Depth First Search
+- [[searching]]
+- [[searching]]
+- [[graph-algorithms]]
+- [[graph-algorithms]]
 
 ### Sorting algorithms
-- Sorting Algorithms
-- Bubble Sort
-- Insertion Sort
-- Selection Sort
-- Merge Sort
-- Quick Sort
-- Heap Sort
-- Shell Sort
-- Radix Sort
-- Cyclic Sort
-- Topological Sort
-- Random Shuffle
+- [[sorting]]
+- [[sorting]]
+- [[sorting]]
+- [[sorting]]
+- [[sorting]]
+- [[sorting]]
+- [[sorting]]
+- [[shell-sort]]
+- [[radix-sort]]
+- [[cyclic-sort]]
+- [[graph-algorithms]]
+- [[random-shuffle]]
 
 ### Graph algorithms
-- Dijkstra's Algorithm
-- Bellman-Ford Algorithm
-- A* Algorithm
-- Minimum Spanning Tree
-- Kruskal's Algorithm
-- Shortest Path
+- [[graph-algorithms]]
+- [[graph-algorithms]]
+- [[a-algorithm]]
+- [[minimum-spanning-tree]]
+- [[kruskal-s-algorithm]]
+- [[graph-algorithms]]
 
 ### Problem-solving techniques
-- Brute Force
-- Backtracking
-- Divide and Conquer
-- Greedy Algorithms
-- Dynamic Programming
-- Recursion
-- Two Pointers
-- Fast and Slow Pointers
-- Sliding Window
-- Merge Intervals
-- Kth Element
-- Island (Matrix) Traversal
-- Multi-threaded
+- [[brute-force]]
+- [[backtracking]]
+- [[divide-and-conquer]]
+- [[greedy-algorithms]]
+- [[dynamic-programming]]
+- [[recursion]]
+- [[two-pointers]]
+- [[fast-and-slow-pointers]]
+- [[sliding-window]]
+- [[merge-intervals]]
+- [[kth-element]]
+- [[island-matrix-traversal]]
+- [[concurrency-and-deadlocks]]
 
 ### Practice
-- Platforms to Practice
-- LeetCode
-- Edabit
+- [[platforms-to-practice]]
+- [[leetcode]]
+- [[edabit]]
 
 ## Resources
 See [resources.md](./resources.md).

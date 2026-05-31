@@ -1,0 +1,16 @@
+---
+title: Model Context Protocol (MCP)
+track: ai-agents
+group: Model Context Protocol (MCP)
+tags: [ai-agents]
+---
+
+# Model Context Protocol (MCP)
+
+Lessons in this group, roughly in build order:
+
+- [[model-context-protocol-mcp]] — MCP is an open protocol that standardizes how an agent app connects to external tools, data, and prompts —…
+- [[mcp-hosts]] — An MCP host is the user-facing application — Claude Desktop, an IDE, your agent — that owns the LLM, runs…
+- [[mcp-client]] — An MCP client is the protocol connector living inside a host that holds a single stateful session to one…
+- [[mcp-servers]] — An MCP server is a standalone process that exposes a focused set of capabilities — tools, resources, and…
+- [[creating-mcp-servers]] — Building an MCP server means declaring a few typed tools (or resources/prompts) with an SDK and choosing a…

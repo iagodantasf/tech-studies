@@ -1,0 +1,16 @@
+---
+title: Aggregations
+track: elasticsearch
+group: Aggregations
+tags: [elasticsearch]
+---
+
+# Aggregations
+
+Lessons in this group, roughly in build order:
+
+- [[metric-aggregations]] — Aggregations that compute a single number (or small set of numbers) over a set of documents — sums,…
+- [[bucket-aggregations]] — Aggregations that partition documents into groups ("buckets") by some key — a term, a numeric range, a…
+- [[pipeline-aggregations]] — Aggregations that take the output of other aggregations as their input — derivatives, moving averages,…
+- [[nested-aggregations]] — Two distinct ideas share the word "nested": sub-aggregating (placing one aggregation inside another) and…
+- [[cardinality-percentiles]] — Two approximate metric aggregations: cardinality counts distinct values (HyperLogLog++), and percentiles…

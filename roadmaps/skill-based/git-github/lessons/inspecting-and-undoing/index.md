@@ -1,0 +1,16 @@
+---
+title: Inspecting and undoing
+track: git-github
+group: Inspecting and undoing
+tags: [git-github]
+---
+
+# Inspecting and undoing
+
+Lessons in this group, roughly in build order:
+
+- [[git-show]] — git show <object> prints the metadata and the diff of any single Git object — most often one commit —…
+- [[git-blame]] — git blame <file> annotates every line of a file with the commit, author, and date that last changed it —…
+- [[git-bisect]] — git bisect binary-searches your commit history to find the exact commit that introduced a bug, testing…
+- [[restoring-files-git-restore-git-checkout]] — git restore (Git 2.23+) discards changes or unstages files at the file level, replacing the overloaded git…
+- [[cleaning-untracked-files-git-clean]] — git clean deletes untracked files (and optionally directories) from the working tree — the one undo…

@@ -1,0 +1,16 @@
+---
+title: Hooks
+track: claude-code
+group: Hooks
+tags: [claude-code]
+---
+
+# Hooks
+
+Lessons in this group, roughly in build order:
+
+- [[hooks-overview-lifecycle]] — Hooks are user-defined shell commands that Claude Code runs automatically at fixed lifecycle events,…
+- [[pretooluse-posttooluse-hooks]] — The two tool-scoped hooks: PreToolUse runs before a tool call and can veto it; PostToolUse runs after it…
+- [[userpromptsubmit-stop-hooks]] — The two turn-boundary hooks: UserPromptSubmit fires the instant you send a prompt (and can edit or reject…
+- [[notification-sessionstart-hooks]] — Two ambient, non-blocking hooks: Notification fires when Claude Code wants your attention; SessionStart…
+- [[writing-debugging-hook-scripts]] — The practical craft of authoring a hook command — parsing its stdin JSON, returning the right exit code…

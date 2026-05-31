@@ -14,89 +14,89 @@ Suggested path through the **Design System** nodes. Each node links to its lesso
 ## Nodes
 
 ### Fundamentals
-- Need of a Design System
-- Design System vs Component Library
-- Design System Examples
-- Keywords / Terminology
+- [[need-of-a-design-system]]
+- [[design-system-vs-component-library]]
+- [[design-system-examples]]
+- [[keywords-terminology]]
 
 ### Approach
-- Making a Design System
-- Making It from Scratch
-- Making It from Existing Design
-- Existing Design Analysis
-- Identify Existing Design Process
-- Performing a Visual Audit
+- [[making-a-design-system]]
+- [[making-it-from-scratch]]
+- [[making-it-from-existing-design]]
+- [[existing-design-analysis]]
+- [[identify-existing-design-process]]
+- [[performing-a-visual-audit]]
 
 ### Design language
-- Creating the Design Language
-- Design Language
-- Design Principles
-- Color
-- Functional Colors
-- Dark Mode
-- Monochrome Version
-- Grid
-- Grid Relation
-- Breakpoints
+- [[creating-the-design-language]]
+- [[design-language]]
+- [[design-principles]]
+- [[color]]
+- [[functional-colors]]
+- [[dark-mode]]
+- [[monochrome-version]]
+- [[grid]]
+- [[grid-relation]]
+- [[breakpoints]]
 
 ### Design tokens
-- Defining Design Tokens
-- File Formats
-- Design Editor
+- [[defining-design-tokens]]
+- [[file-formats]]
+- [[design-editor]]
 
 ### Components
-- Creating Core Components
-- Component
-- Component Catalog
-- Component Library
-- Avatar
-- Badge
-- Banner
-- Button
-- Card
-- Carousel
-- Dropdown
-- Forms
-- Input — Text
-- Input — Checkbox
-- Input — Radio
-- Input — Switch
-- Icon
-- List
-- Loading Indicator
-- Modal
+- [[creating-core-components]]
+- [[component]]
+- [[component-catalog]]
+- [[component-library]]
+- [[avatar]]
+- [[badge]]
+- [[banner]]
+- [[button]]
+- [[card]]
+- [[carousel]]
+- [[dropdown]]
+- [[forms]]
+- [[input-text]]
+- [[input-checkbox]]
+- [[input-radio]]
+- [[input-switch]]
+- [[icon]]
+- [[list]]
+- [[loading-indicator]]
+- [[modal]]
 
 ### Patterns
-- Pattern
-- Placement Guidance
+- [[pattern]]
+- [[placement-guidance]]
 
 ### Content & guidelines
-- Guidelines
-- Microcopy Guidelines
-- Naming
-- Code Style
-- Commit Guidelines
-- Contribution Guidelines
+- [[guidelines]]
+- [[microcopy-guidelines]]
+- [[naming]]
+- [[code-style]]
+- [[commit-guidelines]]
+- [[contribution-guidelines]]
 
 ### Documentation
-- Documentation
-- FAQs
+- [[documentation]]
+- [[faqs]]
 
 ### Quality
-- Accessibility
-- Accessibility Testing
-- Performance
-- A/B Tests / Experiments
-- Component Analytics
-- Logging
+- [[accessibility]]
+- [[accessibility-testing]]
+- [[performance]]
+- [[a-b-tests-experiments]]
+- [[component-analytics]]
+- [[logging]]
 
 ### Governance & rollout
-- Governance
-- Milestones
-- Pilot
-- Communication Channel
-- Community Meetings
-- Open Hours
+- [[governance]]
+- [[milestones]]
+- [[pilot]]
+- [[communication-channel]]
+- [[community-meetings]]
+- [[open-hours]]
 
 ## Resources
 See [resources.md](./resources.md).

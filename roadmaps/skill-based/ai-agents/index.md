@@ -14,127 +14,127 @@ Suggested path through the **AI Agents** nodes. Each node links to its lesson wh
 ## Nodes
 
 ### Pre-requisites
-- Basic Backend Development
-- REST API Knowledge
-- API Requests
-- Git and Terminal Usage
+- [[basic-backend-development]]
+- [[rest-api-knowledge]]
+- [[api-requests]]
+- [[git-and-terminal-usage]]
 
 ### What are AI Agents
-- What are AI Agents
-- Agent Loop
-- Perception / User Input
-- Reason and Plan
-- Acting / Tool Invocation
-- Observation / Reflection
+- [[what-are-ai-agents]]
+- [[agent-loop]]
+- [[perception-user-input]]
+- [[reason-and-plan]]
+- [[acting-tool-invocation]]
+- [[observation-reflection]]
 
 ### LLM Fundamentals
-- Closed-Weight Models
-- Open-Weight Models
-- Reasoning vs Standard Models
-- Context Windows
-- Fine-tuning vs Prompt Engineering
-- Embeddings and Vector Search
-- Token-based Pricing
-- Pricing of Common Models
+- [[closed-weight-models]]
+- [[open-weight-models]]
+- [[reasoning-vs-standard-models]]
+- [[context-windows]]
+- [[fine-tuning-vs-prompt-engineering]]
+- [[embeddings-and-vector-search]]
+- [[token-based-pricing]]
+- [[pricing-of-common-models]]
 
 ### Model Configuration / Tuning
-- Temperature
-- Top-p / Top-k
-- Max Length / Max Tokens
-- Stopping Criteria
-- Frequency Penalty
-- Presence Penalty
-- Streamed vs Unstreamed Responses
+- [[temperature]]
+- [[top-p-top-k]]
+- [[max-length-max-tokens]]
+- [[stopping-criteria]]
+- [[frequency-penalty]]
+- [[presence-penalty]]
+- [[streamed-vs-unstreamed-responses]]
 
 ### Prompt Engineering
-- Be Specific in What You Want
-- Provide Additional Context
-- Specify Length, Format, etc.
-- Iterate and Test Your Prompts
-- Chain of Thought (CoT)
-- ReAct (Reason + Act)
+- [[be-specific-in-what-you-want]]
+- [[provide-additional-context]]
+- [[specify-length-format-etc]]
+- [[iterate-and-test-your-prompts]]
+- [[chain-of-thought-cot]]
+- [[react-reason-act]]
 
 ### Tool / Function Calling
-- LLM Native Function Calling
-- OpenAI Functions Calling
-- OpenAI Assistant API
-- Anthropic Tool Use
-- Gemini Function Calling
+- [[llm-native-function-calling]]
+- [[openai-functions-calling]]
+- [[openai-assistant-api]]
+- [[anthropic-tool-use]]
+- [[gemini-function-calling]]
 
 ### Building Agents Manually
-- Manual / From Scratch
-- Understanding the Architecture
+- [[manual-from-scratch]]
+- [[understanding-the-architecture]]
 
 ### Agent Architectures
-- ReAct (Reason + Act)
-- Planner-Executor
-- DAG Agents
-- Chain of Thought (CoT)
-- Tree of Thought (ToT)
+- [[react-reason-act]]
+- [[planner-executor]]
+- [[dag-agents]]
+- [[chain-of-thought-cot]]
+- [[tree-of-thought-tot]]
 
 ### Tools an Agent Can Use
-- Code Execution / REPL
-- Web Scraping / Crawling
-- Web Search
-- API Requests
-- Database Queries
-- File System Access
-- Git and Terminal Usage
-- Email / Slack / SMS
+- [[code-execution-repl]]
+- [[web-scraping-crawling]]
+- [[web-search]]
+- [[api-requests]]
+- [[database-queries]]
+- [[file-system-access]]
+- [[git-and-terminal-usage]]
+- [[email-slack-sms]]
 
 ### Model Context Protocol (MCP)
-- Model Context Protocol (MCP)
-- MCP Hosts
-- MCP Client
-- MCP Servers
-- Creating MCP Servers
+- [[model-context-protocol-mcp]]
+- [[mcp-hosts]]
+- [[mcp-client]]
+- [[mcp-servers]]
+- [[creating-mcp-servers]]
 
 ### Memory
-- Short-term Memory
-- Long-term Memory
-- Episodic vs Semantic Memory
-- RAG and Vector Databases
-- Summarization / Compression
-- Forgetting / Aging Strategies
+- [[short-term-memory]]
+- [[long-term-memory]]
+- [[episodic-vs-semantic-memory]]
+- [[rag-and-vector-databases]]
+- [[summarization-compression]]
+- [[forgetting-aging-strategies]]
 
 ### Frameworks
-- LangChain
-- LangGraph
-- LlamaIndex
-- Haystack
-- CrewAI
-- AutoGen
-- Smol Depot
+- [[langchain]]
+- [[langgraph]]
+- [[llamaindex]]
+- [[haystack]]
+- [[crewai]]
+- [[autogen]]
+- [[smol-depot]]
 
 ### Evaluation / Observability
-- Metrics to Track
-- Human-in-the-loop Evaluation
-- LangSmith
-- Langfuse
-- Helicone
-- DeepEval
-- Ragas
-- OpenLLMetry
-- Structured Logging / Tracing
-- Integration Testing for Flows
-- Unit Testing
+- [[metrics-to-track]]
+- [[human-in-the-loop-evaluation]]
+- [[langsmith]]
+- [[langfuse]]
+- [[helicone]]
+- [[deepeval]]
+- [[ragas]]
+- [[openllmetry]]
+- [[structured-logging-tracing]]
+- [[integration-testing-for-flows]]
+- [[unit-testing]]
 
 ### Security / Safety
-- Prompt Injection / Jailbreaks
-- Data Privacy / PII Redaction
-- Bias / Toxicity Guardrails
-- Safety / Red-Team Testing
+- [[prompt-injection-jailbreaks]]
+- [[data-privacy-pii-redaction]]
+- [[bias-toxicity-guardrails]]
+- [[safety-red-team-testing]]
 
 ### Agent Deployment
-- Local Desktop
-- Remote / Cloud
+- [[local-desktop]]
+- [[remote-cloud]]
 
 ### Example Use Cases
-- Personal Assistant
-- RAG Agent
-- Code Generation
-- Data Analysis
-- NPC / Game AI
+- [[personal-assistant]]
+- [[rag-agent]]
+- [[code-generation]]
+- [[data-analysis]]
+- [[npc-game-ai]]
 
 ## Resources
 See [resources.md](./resources.md).
