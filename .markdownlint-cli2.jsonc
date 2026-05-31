@@ -6,6 +6,8 @@
   "config": {
     "default": true,
     "MD013": false, // line length — prose and tables run long
+    "MD014": false, // $-prefixed example commands without output — lessons show commands deliberately
+    "MD026": false, // trailing punctuation in headings — node titles like "Specify Length, Format, etc."
     "MD022": false, // blanks around headings — vault uses compact heading→list
     "MD024": false, // duplicate headings — Notes/Resources repeat across track files
     "MD025": {

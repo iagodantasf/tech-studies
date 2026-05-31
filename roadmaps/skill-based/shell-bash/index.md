@@ -54,7 +54,7 @@ Suggested path through the **Shell / Bash** nodes. Each node links to its lesson
 
 ### Control flow
 - if / elif / else
-- [[ ]]
+- `[[ ]]` test command
 - case statements
 - for loops
 - while and until loops
