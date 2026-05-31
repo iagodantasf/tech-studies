@@ -31,4 +31,7 @@ exclude = [
   # thegooddocsproject.dev is a small community site that intermittently times out
   # from CI runners (301 + multi-second TTFB); the URL is valid.
   "^https?://thegooddocsproject\\.dev/",
+  # professormesser.com (CompTIA training) blocks/redirects non-browser clients from
+  # CI runners; the URL is valid in a browser.
+  "^https?://(www\\.)?professormesser\\.com/",
 ]
